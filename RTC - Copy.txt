@@ -1,0 +1,6 @@
+http://embedded-lab.com/blog/stm32s-internal-rtc/
+
+https://www.youtube.com/watch?v=b4cop0915j8
+
+https://libstock.mikroe.com/projects/view/1742/stm32-s-internal-rtc
+
