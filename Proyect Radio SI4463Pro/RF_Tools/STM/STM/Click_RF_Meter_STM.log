@@ -1,0 +1,22 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F107VC -RA -BIN -APB -LHF -C -Y -DL -SSA -O11111112 -fo72 -N"C:\Users\Crow\Desktop\STM\STM\Click_RF_Meter_STM.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -SP"C:\Users\Crow\Desktop\STM\STM\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" "Click_RF_Meter_STM.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_105_107.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl" "__Lib_CString.emcl" "__Lib_Conversions.emcl" "__Lib_SPI_123.emcl" "__Lib_UART_123_45.emcl" "easymx_v7_STM32F107VC.emcl" "RF_Meter_STM32_M3.emcl" "Click_RF_Meter.pld"	 
+diagnostics: 0	122	Compilation Started	STM32F107VC.c
+diagnostics: 38838	123	Compiled Successfully	STM32F107VC.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 118	123	Compiled Successfully	__Lib_Delays.c
+hint: 66	1164	Variable 'cycles_div_by_10' has been eliminated by optimizer	__Lib_Delays.c
+hint: 87	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+hint: 104	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__lib_gpio.h
+diagnostics: 834	123	Compiled Successfully	__Lib_GPIO_32F10x_Defs.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 349	123	Compiled Successfully	easymx_v7_STM32F107VC.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 74	123	Compiled Successfully	Click_RF_Meter_STM.c
+diagnostics: 0	127	All files Compiled in 62 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 112   Dynamic RAM (bytes): 65417	Static RAM (bytes): 112   Dynamic RAM (bytes): 65417
+hint: 0	1144	Used ROM (bytes): 8206 (3%)  Free ROM (bytes): 253938 (97%)	Used ROM (bytes): 8206 (3%)  Free ROM (bytes): 253938 (97%)
+diagnostics: 0	125	Project Linked Successfully	Click_RF_Meter_STM.mcpar
+diagnostics: 0	128	Linked in 235 ms	 
+diagnostics: 0	129	Project 'Click_RF_Meter_STM.mcpar' completed: 1172 ms	 
+diagnostics: 0	103	Finished successfully: 12 oct. 2020, 14:02:10	Click_RF_Meter_STM.mcpar

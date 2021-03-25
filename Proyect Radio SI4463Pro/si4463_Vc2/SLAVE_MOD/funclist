@@ -1,0 +1,21 @@
+_main: CODE, 983 0 142
+_spi_write: CODE, 1340 0 56
+_delay_x10ms: CODE, 1671 0 25
+_clr_interrupt: CODE, 1615 0 28
+_ISR_timer: CODE, 1396 0 55
+_fifo_reset: CODE, 1718 0 19
+_check_cts: CODE, 1696 0 22
+_SI4463_init: CODE, 19 0 628
+_spi_read: CODE, 1125 0 89
+_delay_1ms: CODE, 1502 0 43
+_delay_10ms: CODE, 1545 0 38
+_nop_10: CODE, 1783 0 11
+_rx_start: CODE, 1643 0 28
+_spi_read_fifo: CODE, 1278 0 62
+_enable_rx_interrupt: CODE, 1583 0 32
+_port_init: CODE, 1753 0 16
+_spi_byte: CODE, 1451 0 51
+_timer1_init: CODE, 1769 0 14
+_sdn_reset: CODE, 1214 0 64
+_rx_init: CODE, 1737 0 16
+Total: 1439

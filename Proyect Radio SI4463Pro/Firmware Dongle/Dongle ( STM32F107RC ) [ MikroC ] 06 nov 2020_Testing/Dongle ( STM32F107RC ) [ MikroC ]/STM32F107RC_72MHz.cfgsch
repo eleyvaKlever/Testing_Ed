@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<MCU_DEVICE_FLAGS>
+  <DEVICE>
+    <DEVICE_NAME>STM32F107RC</DEVICE_NAME>
+    <DEVICE_CLOCK>72</DEVICE_CLOCK>
+    <SETTINGS>
+      <COUNT>23</COUNT>
+      <SETTING0>
+        <NAME>Internal high-speed clock enable</NAME>
+        <DESCRIPTION>internal 8 MHz RC oscillator ON</DESCRIPTION>
+      </SETTING0>
+      <SETTING1>
+        <NAME>External high-speed clock enable</NAME>
+        <DESCRIPTION>HSE oscillator ON</DESCRIPTION>
+      </SETTING1>
+      <SETTING2>
+        <NAME>External high-speed clock bypass</NAME>
+        <DESCRIPTION>HSE oscillator not bypassed</DESCRIPTION>
+      </SETTING2>
+      <SETTING3>
+        <NAME>Clock security system enable</NAME>
+        <DESCRIPTION>Clock detector OFF</DESCRIPTION>
+      </SETTING3>
+      <SETTING4>
+        <NAME>PLL enable</NAME>
+        <DESCRIPTION>PLL ON</DESCRIPTION>
+      </SETTING4>
+      <SETTING5>
+        <NAME>PLL2 enable</NAME>
+        <DESCRIPTION>PLL2 OFF</DESCRIPTION>
+      </SETTING5>
+      <SETTING6>
+        <NAME>PLL3 enable</NAME>
+        <DESCRIPTION>PLL3 OFF</DESCRIPTION>
+      </SETTING6>
+      <SETTING7>
+        <NAME>System clock Switch</NAME>
+        <DESCRIPTION>PLL selected as system clock</DESCRIPTION>
+      </SETTING7>
+      <SETTING8>
+        <NAME>Set and cleared by software to control the division factor of the AHB clock</NAME>
+        <DESCRIPTION>SYSCLK not divided</DESCRIPTION>
+      </SETTING8>
+      <SETTING9>
+        <NAME>APB low-speed prescaler (APB1)</NAME>
+        <DESCRIPTION>HCLK divided by 2 </DESCRIPTION>
+      </SETTING9>
+      <SETTING10>
+        <NAME>APB high-speed prescaler (APB2)</NAME>
+        <DESCRIPTION>HCLK not divided </DESCRIPTION>
+      </SETTING10>
+      <SETTING11>
+        <NAME>ADC prescaler</NAME>
+        <DESCRIPTION>PCLK2 divided by 2 </DESCRIPTION>
+      </SETTING11>
+      <SETTING12>
+        <NAME>PLL entry clock source</NAME>
+        <DESCRIPTION>Clock from PREDIV1 selected as the PLL input clock</DESCRIPTION>
+      </SETTING12>
+      <SETTING13>
+        <NAME>PLL multiplication factor</NAME>
+        <DESCRIPTION>PLL input clock x 9</DESCRIPTION>
+      </SETTING13>
+      <SETTING14>
+        <NAME>USB OTG FS prescaler</NAME>
+        <DESCRIPTION>PLL VCO (2 x PLLCLK) clock is divided by 3 (PLL must be configured to output 72 MHz)</DESCRIPTION>
+      </SETTING14>
+      <SETTING15>
+        <NAME>Microcontroller clock output</NAME>
+        <DESCRIPTION>No clock</DESCRIPTION>
+      </SETTING15>
+      <SETTING16>
+        <NAME>PREDIV1 division factor</NAME>
+        <DESCRIPTION>PREDIV1 input clock not divided</DESCRIPTION>
+      </SETTING16>
+      <SETTING17>
+        <NAME>PPREDIV2 division factor</NAME>
+        <DESCRIPTION>PREDIV2 input clock not divided</DESCRIPTION>
+      </SETTING17>
+      <SETTING18>
+        <NAME>PLL2 Multiplication Factor</NAME>
+        <DESCRIPTION>NO VALUE</DESCRIPTION>
+      </SETTING18>
+      <SETTING19>
+        <NAME>PLL3 Multiplication Factor</NAME>
+        <DESCRIPTION>NO VALUE</DESCRIPTION>
+      </SETTING19>
+      <SETTING20>
+        <NAME>PREDIV1 entry clock source</NAME>
+        <DESCRIPTION>HSE oscillator clock selected as PREDIV1 clock entry</DESCRIPTION>
+      </SETTING20>
+      <SETTING21>
+        <NAME>I2S2 clock source</NAME>
+        <DESCRIPTION>System clock (SYSCLK) selected as I2S2 clock entry</DESCRIPTION>
+      </SETTING21>
+      <SETTING22>
+        <NAME>I2S3 clock source</NAME>
+        <DESCRIPTION>System clock (SYSCLK) selected as I2S3 clock entry</DESCRIPTION>
+      </SETTING22>
+    </SETTINGS>
+  </DEVICE>
+</MCU_DEVICE_FLAGS>

@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<MCU_DEVICE_FLAGS>
+  <DEVICE>
+    <DEVICE_NAME>STM32L072CB</DEVICE_NAME>
+    <DEVICE_CLOCK>16</DEVICE_CLOCK>
+    <SETTINGS>
+      <COUNT>19</COUNT>
+      <SETTING0>
+        <NAME>48MHz HSI clock enable bit</NAME>
+        <DESCRIPTION>48MHz HSI clock disabled</DESCRIPTION>
+      </SETTING0>
+      <SETTING1>
+        <NAME>16 MHz high-speed internal clock enable</NAME>
+        <DESCRIPTION>HSI16 oscillator ON</DESCRIPTION>
+      </SETTING1>
+      <SETTING2>
+        <NAME>HSI16 divider enable bit</NAME>
+        <DESCRIPTION>no 16 MHz HSI division requested</DESCRIPTION>
+      </SETTING2>
+      <SETTING3>
+        <NAME>MSI clock enable</NAME>
+        <DESCRIPTION>MSI oscillator OFF</DESCRIPTION>
+      </SETTING3>
+      <SETTING4>
+        <NAME>External high-speed clock enable</NAME>
+        <DESCRIPTION>HSE oscillator OFF</DESCRIPTION>
+      </SETTING4>
+      <SETTING5>
+        <NAME>External high-speed clock bypass</NAME>
+        <DESCRIPTION>HSE oscillator not bypassed</DESCRIPTION>
+      </SETTING5>
+      <SETTING6>
+        <NAME>Clock security system on HSE enable bit</NAME>
+        <DESCRIPTION>Clock security system ON</DESCRIPTION>
+      </SETTING6>
+      <SETTING7>
+        <NAME>RTC prescaler</NAME>
+        <DESCRIPTION>HSE is divided by 2 for RTC clock</DESCRIPTION>
+      </SETTING7>
+      <SETTING8>
+        <NAME>PLL Power Down</NAME>
+        <DESCRIPTION>PLL OFF</DESCRIPTION>
+      </SETTING8>
+      <SETTING9>
+        <NAME>System clock switch</NAME>
+        <DESCRIPTION>HSI16 oscillator used as system clock</DESCRIPTION>
+      </SETTING9>
+      <SETTING10>
+        <NAME>Set and cleared by software to control the division factor of the AHB clock</NAME>
+        <DESCRIPTION>SYSCLK not divided</DESCRIPTION>
+      </SETTING10>
+      <SETTING11>
+        <NAME>APB low-speed prescaler (APB1)</NAME>
+        <DESCRIPTION> HCLK not divided </DESCRIPTION>
+      </SETTING11>
+      <SETTING12>
+        <NAME>APB high-speed prescaler (APB2)</NAME>
+        <DESCRIPTION> HCLK not divided </DESCRIPTION>
+      </SETTING12>
+      <SETTING13>
+        <NAME>PLL entry clock source</NAME>
+        <DESCRIPTION>HSI16 oscillator clock selected as PLL input clock</DESCRIPTION>
+      </SETTING13>
+      <SETTING14>
+        <NAME>PLL multiplication factor</NAME>
+        <DESCRIPTION>PLLVCO = PLL clock entry x 3</DESCRIPTION>
+      </SETTING14>
+      <SETTING15>
+        <NAME>PLL output division</NAME>
+        <DESCRIPTION>not allowed</DESCRIPTION>
+      </SETTING15>
+      <SETTING16>
+        <NAME>Microcontroller clock output</NAME>
+        <DESCRIPTION>No clock</DESCRIPTION>
+      </SETTING16>
+      <SETTING17>
+        <NAME>Microcontroller clock output prescaler</NAME>
+        <DESCRIPTION>MCO is divided by 1</DESCRIPTION>
+      </SETTING17>
+      <SETTING18>
+        <NAME>Core Voltage</NAME>
+        <DESCRIPTION>VCORE = 1.5 V</DESCRIPTION>
+      </SETTING18>
+    </SETTINGS>
+  </DEVICE>
+</MCU_DEVICE_FLAGS>

@@ -1,0 +1,41 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32G071KB -UICD -RA -BIN -APB -LHF -C -Y -DL -SSA -O11111111 -fo16 -N"C:\Users\Crow\OneDrive\Escritorio\Proyect Radio SI4463Pro\DriverRF4463PRO_G071KB [ MikroC 6.2 ]4 DIC 2020\DriverRF4463PRO_G071KB [ MikroC 6.2 ]\DriverRF4463PRO.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M0\" -SP"C:\Users\Crow\OneDrive\Escritorio\Proyect Radio SI4463Pro\DriverRF4463PRO_G071KB [ MikroC 6.2 ]4 DIC 2020\DriverRF4463PRO_G071KB [ MikroC 6.2 ]\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M0\" "DriverRF4463PROMain.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_G0xx.emcl" "__Lib_GPIO_G0xx_Defs.emcl" "__Lib_GPIO_G0xx.emcl" "__Lib_CType.emcl" "__Lib_CString.emcl" "__Lib_CStdlib.emcl" "__Lib_Conversions.emcl" "__Lib_PrintOut.emcl" "__Lib_Sound.emcl" "__Lib_SPI_G0xx_12.emcl" "__Lib_UART_G0xx_1234.emcl"	 
+diagnostics: 0	122	Compilation Started	STM32G071KB.c
+diagnostics: 30400	123	Compiled Successfully	STM32G071KB.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 165	123	Compiled Successfully	__Lib_Delays.c
+hint: 66	1164	Variable 'cycles_div_by_10' has been eliminated by optimizer	__Lib_Delays.c
+hint: 99	1164	Variable 'cycles_div_by_16' has been eliminated by optimizer	__Lib_Delays.c
+hint: 150	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+hint: 159	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__lib_gpio.h
+diagnostics: 673	123	Compiled Successfully	__Lib_GPIO_G0xx_Defs.c
+diagnostics: 0	122	Compilation Started	DriverRF4463PROMain.c
+hint: 0	1004	interrupt handler (Int_SPI1 at 0x0029)	driverspi.c
+hint: 0	1004	interrupt handler (DMACh1_interrupt at 0x0019)	driverspi.c
+hint: 0	1004	interrupt handler (vRF4463ISR at 0x0016)	driverrf4463pro.c
+warning: 139	1505	Suspicious pointer conversion	driverrf4463pro.c
+warning: 282	1505	Suspicious pointer conversion	driverrf4463pro.c
+hint: 569	1163	Variable 'i' has been declared, but not used	driverrf4463pro.c
+hint: 610	1163	Variable 'i' has been declared, but not used	driverrf4463pro.c
+hint: 640	1163	Variable 'ucFD_2' has been declared, but not used	driverrf4463pro.c
+hint: 640	1163	Variable 'ucFD_1' has been declared, but not used	driverrf4463pro.c
+hint: 640	1163	Variable 'ucFD_0' has been declared, but not used	driverrf4463pro.c
+warning: 799	1505	Suspicious pointer conversion	driverrf4463pro.c
+error: 83	324	Undeclared identifier 'IVT_INT_DMA1_Channel1' in expression	uarthandler.c
+error: 83	304	invalid interrupt address: IVT_INT_DMA1_Channel1	uarthandler.c
+hint: 0	1004	interrupt handler (DMA1Ch1_interrupt at 0x0000)	uarthandler.c
+error: 85	324	Undeclared identifier 'DMA1_ISRbits' in expression	uarthandler.c
+error: 85	317	Operator '.' is not applicable to these operands ''	uarthandler.c
+error: 85	309	Invalid statement	uarthandler.c
+error: 86	324	Undeclared identifier 'DMA1_IFCRbits' in expression	uarthandler.c
+error: 86	317	Operator '.' is not applicable to these operands ''	uarthandler.c
+error: 89	324	Undeclared identifier 'DMA1_ISRbits' in expression	uarthandler.c
+error: 89	317	Operator '.' is not applicable to these operands ''	uarthandler.c
+error: 89	309	Invalid statement	uarthandler.c
+error: 90	324	Undeclared identifier 'DMA1_IFCRbits' in expression	uarthandler.c
+error: 90	317	Operator '.' is not applicable to these operands ''	uarthandler.c
+error: 92	324	Undeclared identifier 'DMA1_ISRbits' in expression	uarthandler.c
+error: 93	324	Undeclared identifier 'DMA1_IFCRbits' in expression	uarthandler.c
+error: 94	324	Undeclared identifier 'DMA1_CCR1bits' in expression	uarthandler.c
+error: 97	312	Internal error ''	uarthandler.c
+error: 0	102	Finished (with errors): 27 ene. 2021, 12:41:17	DriverRF4463PRO.mcpar

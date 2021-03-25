@@ -1,0 +1,215 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F46K22 -C -Y -DL -O11111110 -fo80 -N"C:\Users\Crow\Desktop\Lab-02\main.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\Crow\Desktop\Lab-02\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" "main.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_Sprintf.mcl" "__Lib_Button.mcl" "__Lib_Sound.mcl" "__Lib_ADC_K22_B.mcl" "__Lib_SPI_c345d014.mcl" "__Lib_UART_c67d67.mcl"	 
+hint: 0	1139	Available RAM: 3875 [bytes], Available ROM: 65536 [bytes]	 
+hint: 16	1354	 warning: "/*" within comment     /******************************************************************************************************************************************************************/  atos.	C:\Users\Crow\Desktop\Lab-02\main.c
+diagnostics: 0	122	Compilation Started	main.c
+warning: 82	1506	Implicit conversion of pointer to int	main.c
+warning: 82	1506	Implicit conversion of pointer to int	main.c
+warning: 82	1506	Implicit conversion of pointer to int	main.c
+warning: 82	1506	Implicit conversion of pointer to int	main.c
+warning: 82	1506	Implicit conversion of pointer to int	main.c
+warning: 82	1506	Implicit conversion of pointer to int	main.c
+warning: 82	1506	Implicit conversion of pointer to int	main.c
+warning: 82	1506	Implicit conversion of pointer to int	main.c
+warning: 82	1506	Implicit conversion of pointer to int	main.c
+warning: 82	1506	Implicit conversion of pointer to int	main.c
+warning: 82	1506	Implicit conversion of pointer to int	main.c
+warning: 82	1506	Implicit conversion of pointer to int	main.c
+warning: 83	1506	Implicit conversion of pointer to int	main.c
+warning: 83	1506	Implicit conversion of pointer to int	main.c
+warning: 83	1506	Implicit conversion of pointer to int	main.c
+warning: 83	1506	Implicit conversion of pointer to int	main.c
+warning: 83	1506	Implicit conversion of pointer to int	main.c
+warning: 83	1506	Implicit conversion of pointer to int	main.c
+warning: 83	1506	Implicit conversion of pointer to int	main.c
+warning: 84	1506	Implicit conversion of pointer to int	main.c
+warning: 84	1506	Implicit conversion of pointer to int	main.c
+warning: 84	1506	Implicit conversion of pointer to int	main.c
+warning: 84	1506	Implicit conversion of pointer to int	main.c
+warning: 84	1506	Implicit conversion of pointer to int	main.c
+warning: 84	1506	Implicit conversion of pointer to int	main.c
+warning: 84	1506	Implicit conversion of pointer to int	main.c
+warning: 84	1506	Implicit conversion of pointer to int	main.c
+warning: 85	1506	Implicit conversion of pointer to int	main.c
+warning: 85	1506	Implicit conversion of pointer to int	main.c
+warning: 85	1506	Implicit conversion of pointer to int	main.c
+warning: 85	1506	Implicit conversion of pointer to int	main.c
+warning: 85	1506	Implicit conversion of pointer to int	main.c
+warning: 86	1506	Implicit conversion of pointer to int	main.c
+warning: 86	1506	Implicit conversion of pointer to int	main.c
+warning: 86	1506	Implicit conversion of pointer to int	main.c
+warning: 86	1506	Implicit conversion of pointer to int	main.c
+warning: 86	1506	Implicit conversion of pointer to int	main.c
+warning: 87	1506	Implicit conversion of pointer to int	main.c
+warning: 87	1506	Implicit conversion of pointer to int	main.c
+warning: 87	1506	Implicit conversion of pointer to int	main.c
+warning: 87	1506	Implicit conversion of pointer to int	main.c
+warning: 87	1506	Implicit conversion of pointer to int	main.c
+warning: 87	1506	Implicit conversion of pointer to int	main.c
+warning: 87	1506	Implicit conversion of pointer to int	main.c
+warning: 87	1506	Implicit conversion of pointer to int	main.c
+warning: 87	1506	Implicit conversion of pointer to int	main.c
+warning: 87	1506	Implicit conversion of pointer to int	main.c
+warning: 87	1506	Implicit conversion of pointer to int	main.c
+warning: 87	1506	Implicit conversion of pointer to int	main.c
+warning: 87	1506	Implicit conversion of pointer to int	main.c
+warning: 87	1506	Implicit conversion of pointer to int	main.c
+warning: 87	1506	Implicit conversion of pointer to int	main.c
+warning: 87	1506	Implicit conversion of pointer to int	main.c
+warning: 88	1506	Implicit conversion of pointer to int	main.c
+warning: 88	1506	Implicit conversion of pointer to int	main.c
+warning: 88	1506	Implicit conversion of pointer to int	main.c
+warning: 88	1506	Implicit conversion of pointer to int	main.c
+warning: 88	1506	Implicit conversion of pointer to int	main.c
+warning: 88	1506	Implicit conversion of pointer to int	main.c
+warning: 88	1506	Implicit conversion of pointer to int	main.c
+warning: 88	1506	Implicit conversion of pointer to int	main.c
+warning: 88	1506	Implicit conversion of pointer to int	main.c
+warning: 88	1506	Implicit conversion of pointer to int	main.c
+warning: 88	1506	Implicit conversion of pointer to int	main.c
+warning: 88	1506	Implicit conversion of pointer to int	main.c
+warning: 88	1506	Implicit conversion of pointer to int	main.c
+warning: 88	1506	Implicit conversion of pointer to int	main.c
+warning: 88	1506	Implicit conversion of pointer to int	main.c
+warning: 88	1506	Implicit conversion of pointer to int	main.c
+warning: 89	1506	Implicit conversion of pointer to int	main.c
+warning: 89	1506	Implicit conversion of pointer to int	main.c
+warning: 89	1506	Implicit conversion of pointer to int	main.c
+warning: 89	1506	Implicit conversion of pointer to int	main.c
+warning: 89	1506	Implicit conversion of pointer to int	main.c
+warning: 89	1506	Implicit conversion of pointer to int	main.c
+warning: 89	1506	Implicit conversion of pointer to int	main.c
+warning: 89	1506	Implicit conversion of pointer to int	main.c
+warning: 89	1506	Implicit conversion of pointer to int	main.c
+warning: 89	1506	Implicit conversion of pointer to int	main.c
+warning: 89	1506	Implicit conversion of pointer to int	main.c
+warning: 89	1506	Implicit conversion of pointer to int	main.c
+warning: 89	1506	Implicit conversion of pointer to int	main.c
+warning: 89	1506	Implicit conversion of pointer to int	main.c
+warning: 89	1506	Implicit conversion of pointer to int	main.c
+warning: 89	1506	Implicit conversion of pointer to int	main.c
+warning: 90	1506	Implicit conversion of pointer to int	main.c
+warning: 90	1506	Implicit conversion of pointer to int	main.c
+warning: 90	1506	Implicit conversion of pointer to int	main.c
+warning: 90	1506	Implicit conversion of pointer to int	main.c
+warning: 90	1506	Implicit conversion of pointer to int	main.c
+warning: 90	1506	Implicit conversion of pointer to int	main.c
+warning: 90	1506	Implicit conversion of pointer to int	main.c
+warning: 91	1506	Implicit conversion of pointer to int	main.c
+warning: 91	1506	Implicit conversion of pointer to int	main.c
+warning: 91	1506	Implicit conversion of pointer to int	main.c
+warning: 91	1506	Implicit conversion of pointer to int	main.c
+warning: 91	1506	Implicit conversion of pointer to int	main.c
+warning: 91	1506	Implicit conversion of pointer to int	main.c
+warning: 91	1506	Implicit conversion of pointer to int	main.c
+warning: 91	1506	Implicit conversion of pointer to int	main.c
+warning: 91	1506	Implicit conversion of pointer to int	main.c
+warning: 91	1506	Implicit conversion of pointer to int	main.c
+warning: 91	1506	Implicit conversion of pointer to int	main.c
+warning: 91	1506	Implicit conversion of pointer to int	main.c
+warning: 91	1506	Implicit conversion of pointer to int	main.c
+warning: 91	1506	Implicit conversion of pointer to int	main.c
+warning: 91	1506	Implicit conversion of pointer to int	main.c
+warning: 91	1506	Implicit conversion of pointer to int	main.c
+warning: 92	1506	Implicit conversion of pointer to int	main.c
+warning: 92	1506	Implicit conversion of pointer to int	main.c
+warning: 92	1506	Implicit conversion of pointer to int	main.c
+warning: 92	1506	Implicit conversion of pointer to int	main.c
+warning: 92	1506	Implicit conversion of pointer to int	main.c
+warning: 92	1506	Implicit conversion of pointer to int	main.c
+warning: 92	1506	Implicit conversion of pointer to int	main.c
+warning: 92	1506	Implicit conversion of pointer to int	main.c
+warning: 92	1506	Implicit conversion of pointer to int	main.c
+warning: 92	1506	Implicit conversion of pointer to int	main.c
+warning: 92	1506	Implicit conversion of pointer to int	main.c
+warning: 92	1506	Implicit conversion of pointer to int	main.c
+warning: 93	1506	Implicit conversion of pointer to int	main.c
+warning: 93	1506	Implicit conversion of pointer to int	main.c
+warning: 93	1506	Implicit conversion of pointer to int	main.c
+warning: 93	1506	Implicit conversion of pointer to int	main.c
+warning: 93	1506	Implicit conversion of pointer to int	main.c
+warning: 93	1506	Implicit conversion of pointer to int	main.c
+warning: 93	1506	Implicit conversion of pointer to int	main.c
+warning: 93	1506	Implicit conversion of pointer to int	main.c
+warning: 93	1506	Implicit conversion of pointer to int	main.c
+warning: 93	1506	Implicit conversion of pointer to int	main.c
+warning: 93	1506	Implicit conversion of pointer to int	main.c
+warning: 93	1506	Implicit conversion of pointer to int	main.c
+warning: 93	1506	Implicit conversion of pointer to int	main.c
+warning: 93	1506	Implicit conversion of pointer to int	main.c
+warning: 93	1506	Implicit conversion of pointer to int	main.c
+warning: 93	1506	Implicit conversion of pointer to int	main.c
+warning: 94	1506	Implicit conversion of pointer to int	main.c
+warning: 94	1506	Implicit conversion of pointer to int	main.c
+warning: 94	1506	Implicit conversion of pointer to int	main.c
+warning: 94	1506	Implicit conversion of pointer to int	main.c
+warning: 94	1506	Implicit conversion of pointer to int	main.c
+warning: 94	1506	Implicit conversion of pointer to int	main.c
+warning: 94	1506	Implicit conversion of pointer to int	main.c
+warning: 94	1506	Implicit conversion of pointer to int	main.c
+warning: 94	1506	Implicit conversion of pointer to int	main.c
+warning: 94	1506	Implicit conversion of pointer to int	main.c
+warning: 94	1506	Implicit conversion of pointer to int	main.c
+warning: 94	1506	Implicit conversion of pointer to int	main.c
+warning: 94	1506	Implicit conversion of pointer to int	main.c
+warning: 94	1506	Implicit conversion of pointer to int	main.c
+warning: 94	1506	Implicit conversion of pointer to int	main.c
+warning: 94	1506	Implicit conversion of pointer to int	main.c
+warning: 95	1506	Implicit conversion of pointer to int	main.c
+warning: 95	1506	Implicit conversion of pointer to int	main.c
+warning: 95	1506	Implicit conversion of pointer to int	main.c
+warning: 95	1506	Implicit conversion of pointer to int	main.c
+warning: 95	1506	Implicit conversion of pointer to int	main.c
+warning: 95	1506	Implicit conversion of pointer to int	main.c
+warning: 95	1506	Implicit conversion of pointer to int	main.c
+warning: 95	1506	Implicit conversion of pointer to int	main.c
+warning: 95	1506	Implicit conversion of pointer to int	main.c
+warning: 95	1506	Implicit conversion of pointer to int	main.c
+warning: 95	1506	Implicit conversion of pointer to int	main.c
+warning: 95	1506	Implicit conversion of pointer to int	main.c
+warning: 95	1506	Implicit conversion of pointer to int	main.c
+warning: 95	1506	Implicit conversion of pointer to int	main.c
+warning: 95	1506	Implicit conversion of pointer to int	main.c
+warning: 95	1506	Implicit conversion of pointer to int	main.c
+warning: 96	1506	Implicit conversion of pointer to int	main.c
+warning: 96	1506	Implicit conversion of pointer to int	main.c
+warning: 96	1506	Implicit conversion of pointer to int	main.c
+warning: 96	1506	Implicit conversion of pointer to int	main.c
+warning: 96	1506	Implicit conversion of pointer to int	main.c
+warning: 96	1506	Implicit conversion of pointer to int	main.c
+warning: 96	1506	Implicit conversion of pointer to int	main.c
+warning: 96	1506	Implicit conversion of pointer to int	main.c
+warning: 96	1506	Implicit conversion of pointer to int	main.c
+warning: 96	1506	Implicit conversion of pointer to int	main.c
+warning: 96	1506	Implicit conversion of pointer to int	main.c
+warning: 97	1506	Implicit conversion of pointer to int	main.c
+warning: 97	1506	Implicit conversion of pointer to int	main.c
+warning: 97	1506	Implicit conversion of pointer to int	main.c
+warning: 97	1506	Implicit conversion of pointer to int	main.c
+warning: 97	1506	Implicit conversion of pointer to int	main.c
+warning: 97	1506	Implicit conversion of pointer to int	main.c
+warning: 180	1509	Generated baud rate is 114943 bps (error = 0.22 percent)	main.c
+warning: 300	1505	Suspicious pointer conversion	main.c
+warning: 389	1505	Suspicious pointer conversion	main.c
+warning: 390	1505	Suspicious pointer conversion	main.c
+warning: 392	1505	Suspicious pointer conversion	main.c
+warning: 393	1505	Suspicious pointer conversion	main.c
+warning: 394	1505	Suspicious pointer conversion	main.c
+warning: 395	1505	Suspicious pointer conversion	main.c
+warning: 398	1505	Suspicious pointer conversion	main.c
+warning: 399	1505	Suspicious pointer conversion	main.c
+warning: 400	1505	Suspicious pointer conversion	main.c
+warning: 411	1505	Suspicious pointer conversion	main.c
+warning: 412	1505	Suspicious pointer conversion	main.c
+warning: 413	1505	Suspicious pointer conversion	main.c
+warning: 426	1505	Suspicious pointer conversion	main.c
+warning: 447	1505	Suspicious pointer conversion	main.c
+warning: 448	1505	Suspicious pointer conversion	main.c
+warning: 608	1506	Implicit conversion of pointer to int	main.c
+diagnostics: 613	123	Compiled Successfully	main.c
+diagnostics: 0	127	All files Compiled in 110 ms	 
+hint: 0	1144	Used RAM (bytes): 635 (16%)  Free RAM (bytes): 3240 (84%)	Used RAM (bytes): 635 (16%)  Free RAM (bytes): 3240 (84%)
+hint: 0	1144	Used ROM (bytes): 3677 (6%)  Free ROM (bytes): 61859 (94%)	Used ROM (bytes): 3677 (6%)  Free ROM (bytes): 61859 (94%)
+diagnostics: 0	125	Project Linked Successfully	main.mcppi
+diagnostics: 0	128	Linked in 78 ms	 
+diagnostics: 0	129	Project 'main.mcppi' completed: 219 ms	 
+diagnostics: 0	103	Finished successfully: 06 nov. 2020, 22:25:23	main.mcppi

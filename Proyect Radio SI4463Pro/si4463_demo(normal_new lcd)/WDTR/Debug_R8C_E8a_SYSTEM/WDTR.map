@@ -1,0 +1,1742 @@
+##########################################
+# (1) LINK INFORMATION                   #
+##########################################
+c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\bin\ln30.exe @D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\WDTR.m16cl
+
+# OPTION FUNCTION SELECT REGISTER
+.OFSREG  FFH
+
+# LINK FILE INFORMATION
+main (D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\main.r30)
+	Aug  3 19:23:55 2011
+
+ncrt0_rskr81b (D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\ncrt0_rskr81b.r30)
+	Aug  3 19:24:01 2011
+
+pub (D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\pub.r30)
+	Aug  3 19:23:56 2011
+
+rda1845 (D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\rda1845.r30)
+	Aug  3 19:23:57 2011
+
+resetprg (D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\resetprg.r30)
+	Aug  3 19:23:58 2011
+
+time (D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\time.r30)
+	Aug  3 19:23:59 2011
+
+uart (D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\uart.r30)
+	Aug  3 19:24:01 2011
+
+_i4divu (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib)
+	Jan  6 15:31:32 2010
+
+_i4modu (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib)
+	Jan  6 15:31:33 2010
+
+_i4mulu (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib)
+	Jan  6 15:31:33 2010
+
+_mbase (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib)
+	Jan  6 15:31:35 2010
+
+mdata (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib)
+	Jan  6 15:31:49 2010
+
+
+##########################################
+# (2) SECTION INFORMATION                #
+##########################################
+# SECTION                        ATR TYPE    START  LENGTH ALIGN MODULENAME
+program                          REL CODE    000000 000059 2     main
+                                 REL CODE    00005A 000000 2     ncrt0_rskr81b
+                                 REL CODE    00005A 0000B5 2     pub
+                                 REL CODE    000110 000B3E 2     rda1845
+                                 REL CODE    000C4E 000009 2     resetprg
+                                 REL CODE    000C58 0003A0 2     time
+                                 REL CODE    000FF8 0007B5 2     uart
+                                 REL CODE    0017AE 00004D 2     _i4divu
+                                 REL CODE    0017FC 00004B 2     _i4modu
+                                 REL CODE    001848 00001C 2     _i4mulu
+data_SE                          ABS DATA    000400 000000       ncrt0_rskr81b
+bss_SE                           REL DATA    000400 000000 2     ncrt0_rskr81b
+data_SO                          REL DATA    000400 000000       ncrt0_rskr81b
+bss_SO                           REL DATA    000400 000000       ncrt0_rskr81b
+data_NE                          REL DATA    000400 000000 2     ncrt0_rskr81b
+                                 REL DATA    000400 00000C 2     mdata
+bss_NE                           REL DATA    00040C 000000 2     ncrt0_rskr81b
+                                 REL DATA    00040C 000006 2     rda1845
+                                 REL DATA    000412 00001E 2     time
+                                 REL DATA    000430 00005C 2     uart
+                                 REL DATA    00048C 000002 2     _mbase
+                                 REL DATA    00048E 000006 2     mdata
+data_NO                          REL DATA    000494 000000       ncrt0_rskr81b
+                                 REL DATA    000494 000002       pub
+                                 REL DATA    000496 000001       uart
+bss_NO                           REL DATA    000497 000000       ncrt0_rskr81b
+                                 REL DATA    000497 000009       rda1845
+                                 REL DATA    0004A0 000005       time
+                                 REL DATA    0004A5 000010       uart
+stack                            REL DATA    0004B6 000100 2     ncrt0_rskr81b
+heap                             REL DATA    0005B6 000300       ncrt0_rskr81b
+rom_NE                           ABS ROMDATA 00C800 000000       ncrt0_rskr81b
+                                 REL ROMDATA 00C800 0000A4 2     rda1845
+                                 REL ROMDATA 00C8A4 000022 2     uart
+rom_NO                           REL ROMDATA 00C8C6 000000       ncrt0_rskr81b
+                                 REL ROMDATA 00C8C6 000027       rda1845
+                                 REL ROMDATA 00C8ED 000046       uart
+data_SEI                         REL ROMDATA 00C934 000000 2     ncrt0_rskr81b
+data_SOI                         REL ROMDATA 00C934 000000       ncrt0_rskr81b
+data_NEI                         REL ROMDATA 00C934 000000 2     ncrt0_rskr81b
+                                 REL ROMDATA 00C934 00000C       mdata
+data_NOI                         REL ROMDATA 00C940 000000       ncrt0_rskr81b
+                                 REL ROMDATA 00C940 000002       pub
+                                 REL ROMDATA 00C942 000001       uart
+switch_table                     REL ROMDATA 00C943 000000       ncrt0_rskr81b
+interrupt                        REL CODE    00C944 000000 2     ncrt0_rskr81b
+                                 REL CODE    00C944 0000A3       ncrt0_rskr81b
+vector                           ABS ROMDATA 00FEDC 000100       ncrt0_rskr81b
+fvector                          ABS ROMDATA 00FFFC 000004       ncrt0_rskr81b
+# Total -------------------------------------------------------------------
+                                     DATA           0004B5(0001205) Byte(s)
+                                     ROMDATA        000246(0000582) Byte(s)
+                                     CODE           001907(0006407) Byte(s)
+
+##########################################
+# (3) GLOBAL LABEL INFORMATION           #
+##########################################
+$delay1ms          0000e6  $exit              00c9e4  $spi_read_byte     0007ec
+$spi_write_1845    00085c  $spi_write_byte    000822  $timerz_ctcss_ou   000f5c
+$uart_tx_reply     00175c  _Flag              0004a5  _INT_INT0          00010a
+_INT_INT3          000e96  _INT_TimerC        000ee4  _INT_TimerX        000fb4
+_INT_UART1RX       001074  _INT_UART1TX       00178a  _INT_keyi          0000e0
+_Initialise        000c4e  __i4divU           0017ae  __i4modU           0017fc
+__i4mulU           001848  __mbase            00048c  __memt             000406
+__mnext            00048e  __msize            000490  __pool             000400
+_count_ctcss_pul   0004a1  _crystal           000498  _ctcss_comp_coun   0004a4
+_ctcss_comp_coun   0004a3  _ctcss_compare_t   00c800  _ctcss_in_delta    000424
+_ctcss_in_main_p   000d10  _ctcss_in_timer    000418  _ctcss_index       0004a2
+_ctcss_inter_cou   000410  _ctcss_inter_fre   00c856  _ctcss_inter_h     00049d
+_ctcss_inter_l     00049e  _ctcss_kuandu_ji   000cb4  _ctcss_out_freq    00c8c6
+_ctcss_pulse_kua   00042e  _enter_stop_mode   0000c4  _exit              00c9e4
+_freq_0            0004aa  _freq_16           0004ac  _freq_26           0004ad
+_freq_30           0004ae  _freq_8            0004ab  _freq_index        00049a
+_io_scan           0000de  _jms               000412  _kuandu_0          000414
+_kuandu_1          000416  _kuandu_counter    0004a0  _main              000000
+_pdn_1ms           00040e  _port_init         0000a4  _rda1845_default   0008a4
+_rda1845_reset_i   0008c6  _send_ctcss        0001f2  _send_freq         0001b6
+_send_group        000110  _send_high_low_p   000c02  _send_jingzao_sq   000b58
+_send_nengliang_   000b84  _send_tx_freq      0001be  _send_volu         000120
+_speaker_off       00077e  _speaker_on        000780  _speaker_on_ctcs   0007b8
+_sq_1ms            00040c  _sq_cishu          00049f  _sq_handle_main_   000230
+_sq_jingzao        00c84e  _sq_jingzao_valu   00049b  _sq_nengliang_va   00049c
+_sq_number         000499  _sq_reset_init     000228  _sq_state          000497
+_sub_program_1ms   000fec  _sysclk_cfg        00005a  _timerc_ctcss_in   000c58
+_timerx_init       000f9c  _timez_stop        000f92  _tx_freq           000470
+_tx_freq1          000474  _tx_freq2          000478  _tx_rest           00047c
+_tx_rest1          000480  _tx_rest2          000484  _tx_result         000488
+_uart_cmp_com      00c8fe  _uart_cmp_com_da   0011b2  _uart_cmp_connec   00c8a4
+_uart_cmp_group    00c8ac  _uart_cmp_setgro   0011fe  _uart_cmp_shakin   0011d8
+_uart_cmp_ver      00c91f  _uart_cmp_ver_ch   001736  _uart_cmp_volu     00c914
+_uart_cmp_volume   0016f8  _uart_init_5ms_t   001104  _uart_init_com     000ff8
+_uart_rx_count     0004af  _uart_rx_data      0004b3  _uart_rx_init      001058
+_uart_rx_length    0004b4  _uart_rx_main_pr   001102  _uart_rx_point     000496
+_uart_rx_timeout   00110c  _uart_rxbuf        000444  _uart_stop_rx      001044
+_uart_stop_tx      001030  _uart_tx_1ms_cou   00046e  _uart_tx_buf       000430
+_uart_tx_connect   00c905  _uart_tx_group     00c8b6  _uart_tx_init      001018
+_uart_tx_length    0004b2  _uart_tx_main_pr   0017ac  _uart_tx_point     0004b1
+_uart_tx_ver       00c924  _uart_tx_volu      00c8ed  _vol               0004b0
+dummy_int          00c9e6  start              00c944  
+
+##########################################
+# (4) GLOBAL EQU SYMBOL INFORMATION      #
+##########################################
+__SB__           00000400  
+
+##########################################
+# (5) GLOBAL EQU BIT-SYMBOL INFORMATION  #
+##########################################
+
+##########################################
+# (6) LOCAL LABEL INFORMATION            #
+##########################################
+@ main ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\main.r30 )
+@ ncrt0_rskr81b ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\ncrt0_rskr81b.r30 )
+@ pub ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\pub.r30 )
+@ rda1845 ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\rda1845.r30 )
+@ resetprg ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\resetprg.r30 )
+@ time ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\time.r30 )
+@ uart ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\uart.r30 )
+@ _i4divu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ _i4modu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ _i4mulu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ _mbase ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+
+##########################################
+# (7) LOCAL EQU SYMBOL INFORMATION       #
+##########################################
+@ main ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\main.r30 )
+@ ncrt0_rskr81b ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\ncrt0_rskr81b.r30 )
+@ pub ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\pub.r30 )
+@ rda1845 ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\rda1845.r30 )
+@ resetprg ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\resetprg.r30 )
+@ time ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\time.r30 )
+@ uart ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\uart.r30 )
+@ _i4divu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ _i4modu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ _i4mulu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ _mbase ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+
+##########################################
+# (8) LOCAL EQU BIT-SYMBOL INFORMATION   #
+##########################################
+@ main ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\main.r30 )
+@ ncrt0_rskr81b ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\ncrt0_rskr81b.r30 )
+@ pub ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\pub.r30 )
+@ rda1845 ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\rda1845.r30 )
+@ resetprg ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\resetprg.r30 )
+@ time ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\time.r30 )
+@ uart ( D:\workspace\WDTR\WDTR\Debug_R8C_E8a_SYSTEM\uart.r30 )
+@ _i4divu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ _i4modu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ _i4mulu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ _mbase ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+program
+                                  00000000  00001863      1864   2
+data_SE
+                                  00000400  00000400         0   1
+bss_SE
+                                  00000400  00000400         0   2
+data_SO
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  0000040b         c   2
+bss_NE
+                                  0000040c  00000493        88   2
+data_NO
+                                  00000494  00000496         3   1
+bss_NO
+                                  00000497  000004b4        1e   1
+stack
+                                  000004b6  000005b5       100   2
+heap
+                                  000005b6  000008b5       300   1
+rom_NE
+                                  0000c800  0000c8c5        c6   1
+rom_NO
+                                  0000c8c6  0000c932        6d   1
+data_SEI
+                                  0000c934  0000c934         0   2
+data_SOI
+                                  0000c934  0000c934         0   1
+data_NEI
+                                  0000c934  0000c93f         c   2
+data_NOI
+                                  0000c940  0000c942         3   1
+switch_table
+                                  0000c943  0000c943         0   1
+interrupt
+                                  0000c944  0000c9e6        a3   2
+vector
+                                  0000fedc  0000ffdb       100   1
+fvector
+                                  0000fffc  0000ffff         4   1
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=program
+FILE=D:/workspace/WDTR/WDTR/main
+                                  00000000  00000058        59
+  _main
+                                  00000000        59   func ,g         0
+  _pm0_addr
+                                  00000000         1   data ,g         0
+  _pm1_addr
+                                  00000000         1   data ,g         0
+  _cm0_addr
+                                  00000000         1   data ,g         0
+  _cm1_addr
+                                  00000000         1   data ,g         0
+  _aier_addr
+                                  00000000         1   data ,g         0
+  _prcr_addr
+                                  00000000         1   data ,g         0
+  _ocd_addr
+                                  00000000         1   data ,g         0
+  _wdtr_addr
+                                  00000000         1   data ,g         0
+  _wdts_addr
+                                  00000000         1   data ,g         0
+  _wdc_addr
+                                  00000000         1   data ,g         0
+  _cspr_addr
+                                  00000000         1   data ,g         0
+  _int0f_addr
+                                  00000000         1   data ,g         0
+  _hra0_addr
+                                  00000000         1   data ,g         0
+  _hra1_addr
+                                  00000000         1   data ,g         0
+  _hra2_addr
+                                  00000000         1   data ,g         0
+  _vca1_addr
+                                  00000000         1   data ,g         0
+  _vca2_addr
+                                  00000000         1   data ,g         0
+  _vw1c_addr
+                                  00000000         1   data ,g         0
+  _vw2c_addr
+                                  00000000         1   data ,g         0
+  _tzmr_addr
+                                  00000000         1   data ,g         0
+  _pum_addr
+                                  00000000         1   data ,g         0
+  _prez_addr
+                                  00000000         1   data ,g         0
+  _tzsc_addr
+                                  00000000         1   data ,g         0
+  _tzpr_addr
+                                  00000000         1   data ,g         0
+  _tzoc_addr
+                                  00000000         1   data ,g         0
+  _txmr_addr
+                                  00000000         1   data ,g         0
+  _prex_addr
+                                  00000000         1   data ,g         0
+  _tx_addr
+                                  00000000         1   data ,g         0
+  _tcss_addr
+                                  00000000         1   data ,g         0
+  _inten_addr
+                                  00000000         1   data ,g         0
+  _kien_addr
+                                  00000000         1   data ,g         0
+  _tcc0_addr
+                                  00000000         1   data ,g         0
+  _tcc1_addr
+                                  00000000         1   data ,g         0
+  _u0brg_addr
+                                  00000000         1   data ,g         0
+  _u1brg_addr
+                                  00000000         1   data ,g         0
+  _ucon_addr
+                                  00000000         1   data ,g         0
+  _sscrh_addr
+                                  00000000         1   data ,g         0
+  _sscrl_addr
+                                  00000000         1   data ,g         0
+  _ssmr_addr
+                                  00000000         1   data ,g         0
+  _sser_addr
+                                  00000000         1   data ,g         0
+  _sssr_addr
+                                  00000000         1   data ,g         0
+  _ssmr2_addr
+                                  00000000         1   data ,g         0
+  _sstdr_addr
+                                  00000000         1   data ,g         0
+  _ssrdr_addr
+                                  00000000         1   data ,g         0
+  _iccr1_addr
+                                  00000000         1   data ,g         0
+  _iccr2_addr
+                                  00000000         1   data ,g         0
+  _icmr_addr
+                                  00000000         1   data ,g         0
+  _icier_addr
+                                  00000000         1   data ,g         0
+  _icsr_addr
+                                  00000000         1   data ,g         0
+  _sar_addr
+                                  00000000         1   data ,g         0
+  _icdrt_addr
+                                  00000000         1   data ,g         0
+  _icdrr_addr
+                                  00000000         1   data ,g         0
+  _adcon2_addr
+                                  00000000         1   data ,g         0
+  _adcon0_addr
+                                  00000000         1   data ,g         0
+  _adcon1_addr
+                                  00000000         1   data ,g         0
+  _p1_addr
+                                  00000000         1   data ,g         0
+  _pd1_addr
+                                  00000000         1   data ,g         0
+  _p3_addr
+                                  00000000         1   data ,g         0
+  _pd3_addr
+                                  00000000         1   data ,g         0
+  _p4_addr
+                                  00000000         1   data ,g         0
+  _pd4_addr
+                                  00000000         1   data ,g         0
+  _pmr_addr
+                                  00000000         1   data ,g         0
+  _pur0_addr
+                                  00000000         1   data ,g         0
+  _pur1_addr
+                                  00000000         1   data ,g         0
+  _drr_addr
+                                  00000000         1   data ,g         0
+  _tcout_addr
+                                  00000000         1   data ,g         0
+  _fmr4_addr
+                                  00000000         1   data ,g         0
+  _fmr1_addr
+                                  00000000         1   data ,g         0
+  _fmr0_addr
+                                  00000000         1   data ,g         0
+  _kupic_addr
+                                  00000000         1   data ,g         0
+  _adic_addr
+                                  00000000         1   data ,g         0
+  _cmp1ic_addr
+                                  00000000         1   data ,g         0
+  _s0tic_addr
+                                  00000000         1   data ,g         0
+  _s0ric_addr
+                                  00000000         1   data ,g         0
+  _s1tic_addr
+                                  00000000         1   data ,g         0
+  _s1ric_addr
+                                  00000000         1   data ,g         0
+  _txic_addr
+                                  00000000         1   data ,g         0
+  _tzic_addr
+                                  00000000         1   data ,g         0
+  _int1ic_addr
+                                  00000000         1   data ,g         0
+  _int3ic_addr
+                                  00000000         1   data ,g         0
+  _tcic_addr
+                                  00000000         1   data ,g         0
+  _cmp0ic_addr
+                                  00000000         1   data ,g         0
+  _int0ic_addr
+                                  00000000         1   data ,g         0
+  _u0mr_addr
+                                  00000000         1   data ,g         0
+  _u1mr_addr
+                                  00000000         1   data ,g         0
+  _u0c0_addr
+                                  00000000         1   data ,g         0
+  _u1c0_addr
+                                  00000000         1   data ,g         0
+  _u0c1_addr
+                                  00000000         1   data ,g         0
+  _u1c1_addr
+                                  00000000         1   data ,g         0
+  _u0rb_addr
+                                  00000000         2   data ,g         0
+  _u1rb_addr
+                                  00000000         2   data ,g         0
+  _rmad0_addr
+                                  00000000         4   data ,g         0
+  _rmad1_addr
+                                  00000000         4   data ,g         0
+  _tc_addr
+                                  00000000         2   data ,g         0
+  _tm0_addr
+                                  00000000         2   data ,g         0
+  _tm1_addr
+                                  00000000         2   data ,g         0
+  _u0tb_addr
+                                  00000000         2   data ,g         0
+  _u1tb_addr
+                                  00000000         2   data ,g         0
+  _ad_addr
+                                  00000000         2   data ,g         0
+  _pm0_addr
+                                  00000000         1   data ,g         0
+  _pm1_addr
+                                  00000000         1   data ,g         0
+  _cm0_addr
+                                  00000000         1   data ,g         0
+  _cm1_addr
+                                  00000000         1   data ,g         0
+  _aier_addr
+                                  00000000         1   data ,g         0
+  _prcr_addr
+                                  00000000         1   data ,g         0
+  _ocd_addr
+                                  00000000         1   data ,g         0
+  _wdtr_addr
+                                  00000000         1   data ,g         0
+  _wdts_addr
+                                  00000000         1   data ,g         0
+  _wdc_addr
+                                  00000000         1   data ,g         0
+  _cspr_addr
+                                  00000000         1   data ,g         0
+  _int0f_addr
+                                  00000000         1   data ,g         0
+  _hra0_addr
+                                  00000000         1   data ,g         0
+  _hra1_addr
+                                  00000000         1   data ,g         0
+  _hra2_addr
+                                  00000000         1   data ,g         0
+  _vca1_addr
+                                  00000000         1   data ,g         0
+  _vca2_addr
+                                  00000000         1   data ,g         0
+  _vw1c_addr
+                                  00000000         1   data ,g         0
+  _vw2c_addr
+                                  00000000         1   data ,g         0
+  _tzmr_addr
+                                  00000000         1   data ,g         0
+  _pum_addr
+                                  00000000         1   data ,g         0
+  _prez_addr
+                                  00000000         1   data ,g         0
+  _tzsc_addr
+                                  00000000         1   data ,g         0
+  _tzpr_addr
+                                  00000000         1   data ,g         0
+  _tzoc_addr
+                                  00000000         1   data ,g         0
+  _txmr_addr
+                                  00000000         1   data ,g         0
+  _prex_addr
+                                  00000000         1   data ,g         0
+  _tx_addr
+                                  00000000         1   data ,g         0
+  _tcss_addr
+                                  00000000         1   data ,g         0
+  _inten_addr
+                                  00000000         1   data ,g         0
+  _kien_addr
+                                  00000000         1   data ,g         0
+  _tcc0_addr
+                                  00000000         1   data ,g         0
+  _tcc1_addr
+                                  00000000         1   data ,g         0
+  _u0brg_addr
+                                  00000000         1   data ,g         0
+  _u1brg_addr
+                                  00000000         1   data ,g         0
+  _ucon_addr
+                                  00000000         1   data ,g         0
+  _sscrh_addr
+                                  00000000         1   data ,g         0
+  _sscrl_addr
+                                  00000000         1   data ,g         0
+  _ssmr_addr
+                                  00000000         1   data ,g         0
+  _sser_addr
+                                  00000000         1   data ,g         0
+  _sssr_addr
+                                  00000000         1   data ,g         0
+  _ssmr2_addr
+                                  00000000         1   data ,g         0
+  _sstdr_addr
+                                  00000000         1   data ,g         0
+  _ssrdr_addr
+                                  00000000         1   data ,g         0
+  _iccr1_addr
+                                  00000000         1   data ,g         0
+  _iccr2_addr
+                                  00000000         1   data ,g         0
+  _icmr_addr
+                                  00000000         1   data ,g         0
+  _icier_addr
+                                  00000000         1   data ,g         0
+  _icsr_addr
+                                  00000000         1   data ,g         0
+  _sar_addr
+                                  00000000         1   data ,g         0
+  _icdrt_addr
+                                  00000000         1   data ,g         0
+  _icdrr_addr
+                                  00000000         1   data ,g         0
+  _adcon2_addr
+                                  00000000         1   data ,g         0
+  _adcon0_addr
+                                  00000000         1   data ,g         0
+  _adcon1_addr
+                                  00000000         1   data ,g         0
+  _p1_addr
+                                  00000000         1   data ,g         0
+  _pd1_addr
+                                  00000000         1   data ,g         0
+  _p3_addr
+                                  00000000         1   data ,g         0
+  _pd3_addr
+                                  00000000         1   data ,g         0
+  _p4_addr
+                                  00000000         1   data ,g         0
+  _pd4_addr
+                                  00000000         1   data ,g         0
+  _pmr_addr
+                                  00000000         1   data ,g         0
+  _pur0_addr
+                                  00000000         1   data ,g         0
+  _pur1_addr
+                                  00000000         1   data ,g         0
+  _drr_addr
+                                  00000000         1   data ,g         0
+  _tcout_addr
+                                  00000000         1   data ,g         0
+  _fmr4_addr
+                                  00000000         1   data ,g         0
+  _fmr1_addr
+                                  00000000         1   data ,g         0
+  _fmr0_addr
+                                  00000000         1   data ,g         0
+  _kupic_addr
+                                  00000000         1   data ,g         0
+  _adic_addr
+                                  00000000         1   data ,g         0
+  _cmp1ic_addr
+                                  00000000         1   data ,g         0
+  _s0tic_addr
+                                  00000000         1   data ,g         0
+  _s0ric_addr
+                                  00000000         1   data ,g         0
+  _s1tic_addr
+                                  00000000         1   data ,g         0
+  _s1ric_addr
+                                  00000000         1   data ,g         0
+  _txic_addr
+                                  00000000         1   data ,g         0
+  _tzic_addr
+                                  00000000         1   data ,g         0
+  _int1ic_addr
+                                  00000000         1   data ,g         0
+  _int3ic_addr
+                                  00000000         1   data ,g         0
+  _tcic_addr
+                                  00000000         1   data ,g         0
+  _cmp0ic_addr
+                                  00000000         1   data ,g         0
+  _int0ic_addr
+                                  00000000         1   data ,g         0
+  _u0mr_addr
+                                  00000000         1   data ,g         0
+  _u1mr_addr
+                                  00000000         1   data ,g         0
+  _u0c0_addr
+                                  00000000         1   data ,g         0
+  _u1c0_addr
+                                  00000000         1   data ,g         0
+  _u0c1_addr
+                                  00000000         1   data ,g         0
+  _u1c1_addr
+                                  00000000         1   data ,g         0
+  _u0rb_addr
+                                  00000000         2   data ,g         0
+  _u1rb_addr
+                                  00000000         2   data ,g         0
+  _rmad0_addr
+                                  00000000         4   data ,g         0
+  _rmad1_addr
+                                  00000000         4   data ,g         0
+  _tc_addr
+                                  00000000         2   data ,g         0
+  _tm0_addr
+                                  00000000         2   data ,g         0
+  _tm1_addr
+                                  00000000         2   data ,g         0
+  _u0tb_addr
+                                  00000000         2   data ,g         0
+  _u1tb_addr
+                                  00000000         2   data ,g         0
+  _ad_addr
+                                  00000000         2   data ,g         0
+  _pm0_addr
+                                  00000000         1   data ,g         0
+  _pm1_addr
+                                  00000000         1   data ,g         0
+  _cm0_addr
+                                  00000000         1   data ,g         0
+  _cm1_addr
+                                  00000000         1   data ,g         0
+  _aier_addr
+                                  00000000         1   data ,g         0
+  _prcr_addr
+                                  00000000         1   data ,g         0
+  _ocd_addr
+                                  00000000         1   data ,g         0
+  _wdtr_addr
+                                  00000000         1   data ,g         0
+  _wdts_addr
+                                  00000000         1   data ,g         0
+  _wdc_addr
+                                  00000000         1   data ,g         0
+  _cspr_addr
+                                  00000000         1   data ,g         0
+  _int0f_addr
+                                  00000000         1   data ,g         0
+  _hra0_addr
+                                  00000000         1   data ,g         0
+  _hra1_addr
+                                  00000000         1   data ,g         0
+  _hra2_addr
+                                  00000000         1   data ,g         0
+  _vca1_addr
+                                  00000000         1   data ,g         0
+  _vca2_addr
+                                  00000000         1   data ,g         0
+  _vw1c_addr
+                                  00000000         1   data ,g         0
+  _vw2c_addr
+                                  00000000         1   data ,g         0
+  _tzmr_addr
+                                  00000000         1   data ,g         0
+  _pum_addr
+                                  00000000         1   data ,g         0
+  _prez_addr
+                                  00000000         1   data ,g         0
+  _tzsc_addr
+                                  00000000         1   data ,g         0
+  _tzpr_addr
+                                  00000000         1   data ,g         0
+  _tzoc_addr
+                                  00000000         1   data ,g         0
+  _txmr_addr
+                                  00000000         1   data ,g         0
+  _prex_addr
+                                  00000000         1   data ,g         0
+  _tx_addr
+                                  00000000         1   data ,g         0
+  _tcss_addr
+                                  00000000         1   data ,g         0
+  _inten_addr
+                                  00000000         1   data ,g         0
+  _kien_addr
+                                  00000000         1   data ,g         0
+  _tcc0_addr
+                                  00000000         1   data ,g         0
+  _tcc1_addr
+                                  00000000         1   data ,g         0
+  _u0brg_addr
+                                  00000000         1   data ,g         0
+  _u1brg_addr
+                                  00000000         1   data ,g         0
+  _ucon_addr
+                                  00000000         1   data ,g         0
+  _sscrh_addr
+                                  00000000         1   data ,g         0
+  _sscrl_addr
+                                  00000000         1   data ,g         0
+  _ssmr_addr
+                                  00000000         1   data ,g         0
+  _sser_addr
+                                  00000000         1   data ,g         0
+  _sssr_addr
+                                  00000000         1   data ,g         0
+  _ssmr2_addr
+                                  00000000         1   data ,g         0
+  _sstdr_addr
+                                  00000000         1   data ,g         0
+  _ssrdr_addr
+                                  00000000         1   data ,g         0
+  _iccr1_addr
+                                  00000000         1   data ,g         0
+  _iccr2_addr
+                                  00000000         1   data ,g         0
+  _icmr_addr
+                                  00000000         1   data ,g         0
+  _icier_addr
+                                  00000000         1   data ,g         0
+  _icsr_addr
+                                  00000000         1   data ,g         0
+  _sar_addr
+                                  00000000         1   data ,g         0
+  _icdrt_addr
+                                  00000000         1   data ,g         0
+  _icdrr_addr
+                                  00000000         1   data ,g         0
+  _adcon2_addr
+                                  00000000         1   data ,g         0
+  _adcon0_addr
+                                  00000000         1   data ,g         0
+  _adcon1_addr
+                                  00000000         1   data ,g         0
+  _p1_addr
+                                  00000000         1   data ,g         0
+  _pd1_addr
+                                  00000000         1   data ,g         0
+  _p3_addr
+                                  00000000         1   data ,g         0
+  _pd3_addr
+                                  00000000         1   data ,g         0
+  _p4_addr
+                                  00000000         1   data ,g         0
+  _pd4_addr
+                                  00000000         1   data ,g         0
+  _pmr_addr
+                                  00000000         1   data ,g         0
+  _pur0_addr
+                                  00000000         1   data ,g         0
+  _pur1_addr
+                                  00000000         1   data ,g         0
+  _drr_addr
+                                  00000000         1   data ,g         0
+  _tcout_addr
+                                  00000000         1   data ,g         0
+  _fmr4_addr
+                                  00000000         1   data ,g         0
+  _fmr1_addr
+                                  00000000         1   data ,g         0
+  _fmr0_addr
+                                  00000000         1   data ,g         0
+  _kupic_addr
+                                  00000000         1   data ,g         0
+  _adic_addr
+                                  00000000         1   data ,g         0
+  _cmp1ic_addr
+                                  00000000         1   data ,g         0
+  _s0tic_addr
+                                  00000000         1   data ,g         0
+  _s0ric_addr
+                                  00000000         1   data ,g         0
+  _s1tic_addr
+                                  00000000         1   data ,g         0
+  _s1ric_addr
+                                  00000000         1   data ,g         0
+  _txic_addr
+                                  00000000         1   data ,g         0
+  _tzic_addr
+                                  00000000         1   data ,g         0
+  _int1ic_addr
+                                  00000000         1   data ,g         0
+  _int3ic_addr
+                                  00000000         1   data ,g         0
+  _tcic_addr
+                                  00000000         1   data ,g         0
+  _cmp0ic_addr
+                                  00000000         1   data ,g         0
+  _int0ic_addr
+                                  00000000         1   data ,g         0
+  _u0mr_addr
+                                  00000000         1   data ,g         0
+  _u1mr_addr
+                                  00000000         1   data ,g         0
+  _u0c0_addr
+                                  00000000         1   data ,g         0
+  _u1c0_addr
+                                  00000000         1   data ,g         0
+  _u0c1_addr
+                                  00000000         1   data ,g         0
+  _u1c1_addr
+                                  00000000         1   data ,g         0
+  _u0rb_addr
+                                  00000000         2   data ,g         0
+  _u1rb_addr
+                                  00000000         2   data ,g         0
+  _rmad0_addr
+                                  00000000         4   data ,g         0
+  _rmad1_addr
+                                  00000000         4   data ,g         0
+  _tc_addr
+                                  00000000         2   data ,g         0
+  _tm0_addr
+                                  00000000         2   data ,g         0
+  _tm1_addr
+                                  00000000         2   data ,g         0
+  _u0tb_addr
+                                  00000000         2   data ,g         0
+  _u1tb_addr
+                                  00000000         2   data ,g         0
+  _ad_addr
+                                  00000000         2   data ,g         0
+  _pm0_addr
+                                  00000000         1   data ,g         0
+  _pm1_addr
+                                  00000000         1   data ,g         0
+  _cm0_addr
+                                  00000000         1   data ,g         0
+  _cm1_addr
+                                  00000000         1   data ,g         0
+  _aier_addr
+                                  00000000         1   data ,g         0
+  _prcr_addr
+                                  00000000         1   data ,g         0
+  _ocd_addr
+                                  00000000         1   data ,g         0
+  _wdtr_addr
+                                  00000000         1   data ,g         0
+  _wdts_addr
+                                  00000000         1   data ,g         0
+  _wdc_addr
+                                  00000000         1   data ,g         0
+  _cspr_addr
+                                  00000000         1   data ,g         0
+  _int0f_addr
+                                  00000000         1   data ,g         0
+  _hra0_addr
+                                  00000000         1   data ,g         0
+  _hra1_addr
+                                  00000000         1   data ,g         0
+  _hra2_addr
+                                  00000000         1   data ,g         0
+  _vca1_addr
+                                  00000000         1   data ,g         0
+  _vca2_addr
+                                  00000000         1   data ,g         0
+  _vw1c_addr
+                                  00000000         1   data ,g         0
+  _vw2c_addr
+                                  00000000         1   data ,g         0
+  _tzmr_addr
+                                  00000000         1   data ,g         0
+  _pum_addr
+                                  00000000         1   data ,g         0
+  _prez_addr
+                                  00000000         1   data ,g         0
+  _tzsc_addr
+                                  00000000         1   data ,g         0
+  _tzpr_addr
+                                  00000000         1   data ,g         0
+  _tzoc_addr
+                                  00000000         1   data ,g         0
+  _txmr_addr
+                                  00000000         1   data ,g         0
+  _prex_addr
+                                  00000000         1   data ,g         0
+  _tx_addr
+                                  00000000         1   data ,g         0
+  _tcss_addr
+                                  00000000         1   data ,g         0
+  _inten_addr
+                                  00000000         1   data ,g         0
+  _kien_addr
+                                  00000000         1   data ,g         0
+  _tcc0_addr
+                                  00000000         1   data ,g         0
+  _tcc1_addr
+                                  00000000         1   data ,g         0
+  _u0brg_addr
+                                  00000000         1   data ,g         0
+  _u1brg_addr
+                                  00000000         1   data ,g         0
+  _ucon_addr
+                                  00000000         1   data ,g         0
+  _sscrh_addr
+                                  00000000         1   data ,g         0
+  _sscrl_addr
+                                  00000000         1   data ,g         0
+  _ssmr_addr
+                                  00000000         1   data ,g         0
+  _sser_addr
+                                  00000000         1   data ,g         0
+  _sssr_addr
+                                  00000000         1   data ,g         0
+  _ssmr2_addr
+                                  00000000         1   data ,g         0
+  _sstdr_addr
+                                  00000000         1   data ,g         0
+  _ssrdr_addr
+                                  00000000         1   data ,g         0
+  _iccr1_addr
+                                  00000000         1   data ,g         0
+  _iccr2_addr
+                                  00000000         1   data ,g         0
+  _icmr_addr
+                                  00000000         1   data ,g         0
+  _icier_addr
+                                  00000000         1   data ,g         0
+  _icsr_addr
+                                  00000000         1   data ,g         0
+  _sar_addr
+                                  00000000         1   data ,g         0
+  _icdrt_addr
+                                  00000000         1   data ,g         0
+  _icdrr_addr
+                                  00000000         1   data ,g         0
+  _adcon2_addr
+                                  00000000         1   data ,g         0
+  _adcon0_addr
+                                  00000000         1   data ,g         0
+  _adcon1_addr
+                                  00000000         1   data ,g         0
+  _p1_addr
+                                  00000000         1   data ,g         0
+  _pd1_addr
+                                  00000000         1   data ,g         0
+  _p3_addr
+                                  00000000         1   data ,g         0
+  _pd3_addr
+                                  00000000         1   data ,g         0
+  _p4_addr
+                                  00000000         1   data ,g         0
+  _pd4_addr
+                                  00000000         1   data ,g         0
+  _pmr_addr
+                                  00000000         1   data ,g         0
+  _pur0_addr
+                                  00000000         1   data ,g         0
+  _pur1_addr
+                                  00000000         1   data ,g         0
+  _drr_addr
+                                  00000000         1   data ,g         0
+  _tcout_addr
+                                  00000000         1   data ,g         0
+  _fmr4_addr
+                                  00000000         1   data ,g         0
+  _fmr1_addr
+                                  00000000         1   data ,g         0
+  _fmr0_addr
+                                  00000000         1   data ,g         0
+  _kupic_addr
+                                  00000000         1   data ,g         0
+  _adic_addr
+                                  00000000         1   data ,g         0
+  _cmp1ic_addr
+                                  00000000         1   data ,g         0
+  _s0tic_addr
+                                  00000000         1   data ,g         0
+  _s0ric_addr
+                                  00000000         1   data ,g         0
+  _s1tic_addr
+                                  00000000         1   data ,g         0
+  _s1ric_addr
+                                  00000000         1   data ,g         0
+  _txic_addr
+                                  00000000         1   data ,g         0
+  _tzic_addr
+                                  00000000         1   data ,g         0
+  _int1ic_addr
+                                  00000000         1   data ,g         0
+  _int3ic_addr
+                                  00000000         1   data ,g         0
+  _tcic_addr
+                                  00000000         1   data ,g         0
+  _cmp0ic_addr
+                                  00000000         1   data ,g         0
+  _int0ic_addr
+                                  00000000         1   data ,g         0
+  _u0mr_addr
+                                  00000000         1   data ,g         0
+  _u1mr_addr
+                                  00000000         1   data ,g         0
+  _u0c0_addr
+                                  00000000         1   data ,g         0
+  _u1c0_addr
+                                  00000000         1   data ,g         0
+  _u0c1_addr
+                                  00000000         1   data ,g         0
+  _u1c1_addr
+                                  00000000         1   data ,g         0
+  _u0rb_addr
+                                  00000000         2   data ,g         0
+  _u1rb_addr
+                                  00000000         2   data ,g         0
+  _rmad0_addr
+                                  00000000         4   data ,g         0
+  _rmad1_addr
+                                  00000000         4   data ,g         0
+  _tc_addr
+                                  00000000         2   data ,g         0
+  _tm0_addr
+                                  00000000         2   data ,g         0
+  _tm1_addr
+                                  00000000         2   data ,g         0
+  _u0tb_addr
+                                  00000000         2   data ,g         0
+  _u1tb_addr
+                                  00000000         2   data ,g         0
+  _ad_addr
+                                  00000000         2   data ,g         0
+  _pm0_addr
+                                  00000000         1   data ,g         0
+  _pm1_addr
+                                  00000000         1   data ,g         0
+  _cm0_addr
+                                  00000000         1   data ,g         0
+  _cm1_addr
+                                  00000000         1   data ,g         0
+  _aier_addr
+                                  00000000         1   data ,g         0
+  _prcr_addr
+                                  00000000         1   data ,g         0
+  _ocd_addr
+                                  00000000         1   data ,g         0
+  _wdtr_addr
+                                  00000000         1   data ,g         0
+  _wdts_addr
+                                  00000000         1   data ,g         0
+  _wdc_addr
+                                  00000000         1   data ,g         0
+  _cspr_addr
+                                  00000000         1   data ,g         0
+  _int0f_addr
+                                  00000000         1   data ,g         0
+  _hra0_addr
+                                  00000000         1   data ,g         0
+  _hra1_addr
+                                  00000000         1   data ,g         0
+  _hra2_addr
+                                  00000000         1   data ,g         0
+  _vca1_addr
+                                  00000000         1   data ,g         0
+  _vca2_addr
+                                  00000000         1   data ,g         0
+  _vw1c_addr
+                                  00000000         1   data ,g         0
+  _vw2c_addr
+                                  00000000         1   data ,g         0
+  _tzmr_addr
+                                  00000000         1   data ,g         0
+  _pum_addr
+                                  00000000         1   data ,g         0
+  _prez_addr
+                                  00000000         1   data ,g         0
+  _tzsc_addr
+                                  00000000         1   data ,g         0
+  _tzpr_addr
+                                  00000000         1   data ,g         0
+  _tzoc_addr
+                                  00000000         1   data ,g         0
+  _txmr_addr
+                                  00000000         1   data ,g         0
+  _prex_addr
+                                  00000000         1   data ,g         0
+  _tx_addr
+                                  00000000         1   data ,g         0
+  _tcss_addr
+                                  00000000         1   data ,g         0
+  _inten_addr
+                                  00000000         1   data ,g         0
+  _kien_addr
+                                  00000000         1   data ,g         0
+  _tcc0_addr
+                                  00000000         1   data ,g         0
+  _tcc1_addr
+                                  00000000         1   data ,g         0
+  _u0brg_addr
+                                  00000000         1   data ,g         0
+  _u1brg_addr
+                                  00000000         1   data ,g         0
+  _ucon_addr
+                                  00000000         1   data ,g         0
+  _sscrh_addr
+                                  00000000         1   data ,g         0
+  _sscrl_addr
+                                  00000000         1   data ,g         0
+  _ssmr_addr
+                                  00000000         1   data ,g         0
+  _sser_addr
+                                  00000000         1   data ,g         0
+  _sssr_addr
+                                  00000000         1   data ,g         0
+  _ssmr2_addr
+                                  00000000         1   data ,g         0
+  _sstdr_addr
+                                  00000000         1   data ,g         0
+  _ssrdr_addr
+                                  00000000         1   data ,g         0
+  _iccr1_addr
+                                  00000000         1   data ,g         0
+  _iccr2_addr
+                                  00000000         1   data ,g         0
+  _icmr_addr
+                                  00000000         1   data ,g         0
+  _icier_addr
+                                  00000000         1   data ,g         0
+  _icsr_addr
+                                  00000000         1   data ,g         0
+  _sar_addr
+                                  00000000         1   data ,g         0
+  _icdrt_addr
+                                  00000000         1   data ,g         0
+  _icdrr_addr
+                                  00000000         1   data ,g         0
+  _adcon2_addr
+                                  00000000         1   data ,g         0
+  _adcon0_addr
+                                  00000000         1   data ,g         0
+  _adcon1_addr
+                                  00000000         1   data ,g         0
+  _p1_addr
+                                  00000000         1   data ,g         0
+  _pd1_addr
+                                  00000000         1   data ,g         0
+  _p3_addr
+                                  00000000         1   data ,g         0
+  _pd3_addr
+                                  00000000         1   data ,g         0
+  _p4_addr
+                                  00000000         1   data ,g         0
+  _pd4_addr
+                                  00000000         1   data ,g         0
+  _pmr_addr
+                                  00000000         1   data ,g         0
+  _pur0_addr
+                                  00000000         1   data ,g         0
+  _pur1_addr
+                                  00000000         1   data ,g         0
+  _drr_addr
+                                  00000000         1   data ,g         0
+  _tcout_addr
+                                  00000000         1   data ,g         0
+  _fmr4_addr
+                                  00000000         1   data ,g         0
+  _fmr1_addr
+                                  00000000         1   data ,g         0
+  _fmr0_addr
+                                  00000000         1   data ,g         0
+  _kupic_addr
+                                  00000000         1   data ,g         0
+  _adic_addr
+                                  00000000         1   data ,g         0
+  _cmp1ic_addr
+                                  00000000         1   data ,g         0
+  _s0tic_addr
+                                  00000000         1   data ,g         0
+  _s0ric_addr
+                                  00000000         1   data ,g         0
+  _s1tic_addr
+                                  00000000         1   data ,g         0
+  _s1ric_addr
+                                  00000000         1   data ,g         0
+  _txic_addr
+                                  00000000         1   data ,g         0
+  _tzic_addr
+                                  00000000         1   data ,g         0
+  _int1ic_addr
+                                  00000000         1   data ,g         0
+  _int3ic_addr
+                                  00000000         1   data ,g         0
+  _tcic_addr
+                                  00000000         1   data ,g         0
+  _cmp0ic_addr
+                                  00000000         1   data ,g         0
+  _int0ic_addr
+                                  00000000         1   data ,g         0
+  _u0mr_addr
+                                  00000000         1   data ,g         0
+  _u1mr_addr
+                                  00000000         1   data ,g         0
+  _u0c0_addr
+                                  00000000         1   data ,g         0
+  _u1c0_addr
+                                  00000000         1   data ,g         0
+  _u0c1_addr
+                                  00000000         1   data ,g         0
+  _u1c1_addr
+                                  00000000         1   data ,g         0
+  _u0rb_addr
+                                  00000000         2   data ,g         0
+  _u1rb_addr
+                                  00000000         2   data ,g         0
+  _rmad0_addr
+                                  00000000         4   data ,g         0
+  _rmad1_addr
+                                  00000000         4   data ,g         0
+  _tc_addr
+                                  00000000         2   data ,g         0
+  _tm0_addr
+                                  00000000         2   data ,g         0
+  _tm1_addr
+                                  00000000         2   data ,g         0
+  _u0tb_addr
+                                  00000000         2   data ,g         0
+  _u1tb_addr
+                                  00000000         2   data ,g         0
+  _ad_addr
+                                  00000000         2   data ,g         0
+  _pm0_addr
+                                  00000000         1   data ,g         0
+  _pm1_addr
+                                  00000000         1   data ,g         0
+  _cm0_addr
+                                  00000000         1   data ,g         0
+  _cm1_addr
+                                  00000000         1   data ,g         0
+  _aier_addr
+                                  00000000         1   data ,g         0
+  _prcr_addr
+                                  00000000         1   data ,g         0
+  _ocd_addr
+                                  00000000         1   data ,g         0
+  _wdtr_addr
+                                  00000000         1   data ,g         0
+  _wdts_addr
+                                  00000000         1   data ,g         0
+  _wdc_addr
+                                  00000000         1   data ,g         0
+  _cspr_addr
+                                  00000000         1   data ,g         0
+  _int0f_addr
+                                  00000000         1   data ,g         0
+  _hra0_addr
+                                  00000000         1   data ,g         0
+  _hra1_addr
+                                  00000000         1   data ,g         0
+  _hra2_addr
+                                  00000000         1   data ,g         0
+  _vca1_addr
+                                  00000000         1   data ,g         0
+  _vca2_addr
+                                  00000000         1   data ,g         0
+  _vw1c_addr
+                                  00000000         1   data ,g         0
+  _vw2c_addr
+                                  00000000         1   data ,g         0
+  _tzmr_addr
+                                  00000000         1   data ,g         0
+  _pum_addr
+                                  00000000         1   data ,g         0
+  _prez_addr
+                                  00000000         1   data ,g         0
+  _tzsc_addr
+                                  00000000         1   data ,g         0
+  _tzpr_addr
+                                  00000000         1   data ,g         0
+  _tzoc_addr
+                                  00000000         1   data ,g         0
+  _txmr_addr
+                                  00000000         1   data ,g         0
+  _prex_addr
+                                  00000000         1   data ,g         0
+  _tx_addr
+                                  00000000         1   data ,g         0
+  _tcss_addr
+                                  00000000         1   data ,g         0
+  _inten_addr
+                                  00000000         1   data ,g         0
+  _kien_addr
+                                  00000000         1   data ,g         0
+  _tcc0_addr
+                                  00000000         1   data ,g         0
+  _tcc1_addr
+                                  00000000         1   data ,g         0
+  _u0brg_addr
+                                  00000000         1   data ,g         0
+  _u1brg_addr
+                                  00000000         1   data ,g         0
+  _ucon_addr
+                                  00000000         1   data ,g         0
+  _sscrh_addr
+                                  00000000         1   data ,g         0
+  _sscrl_addr
+                                  00000000         1   data ,g         0
+  _ssmr_addr
+                                  00000000         1   data ,g         0
+  _sser_addr
+                                  00000000         1   data ,g         0
+  _sssr_addr
+                                  00000000         1   data ,g         0
+  _ssmr2_addr
+                                  00000000         1   data ,g         0
+  _sstdr_addr
+                                  00000000         1   data ,g         0
+  _ssrdr_addr
+                                  00000000         1   data ,g         0
+  _iccr1_addr
+                                  00000000         1   data ,g         0
+  _iccr2_addr
+                                  00000000         1   data ,g         0
+  _icmr_addr
+                                  00000000         1   data ,g         0
+  _icier_addr
+                                  00000000         1   data ,g         0
+  _icsr_addr
+                                  00000000         1   data ,g         0
+  _sar_addr
+                                  00000000         1   data ,g         0
+  _icdrt_addr
+                                  00000000         1   data ,g         0
+  _icdrr_addr
+                                  00000000         1   data ,g         0
+  _adcon2_addr
+                                  00000000         1   data ,g         0
+  _adcon0_addr
+                                  00000000         1   data ,g         0
+  _adcon1_addr
+                                  00000000         1   data ,g         0
+  _p1_addr
+                                  00000000         1   data ,g         0
+  _pd1_addr
+                                  00000000         1   data ,g         0
+  _p3_addr
+                                  00000000         1   data ,g         0
+  _pd3_addr
+                                  00000000         1   data ,g         0
+  _p4_addr
+                                  00000000         1   data ,g         0
+  _pd4_addr
+                                  00000000         1   data ,g         0
+  _pmr_addr
+                                  00000000         1   data ,g         0
+  _pur0_addr
+                                  00000000         1   data ,g         0
+  _pur1_addr
+                                  00000000         1   data ,g         0
+  _drr_addr
+                                  00000000         1   data ,g         0
+  _tcout_addr
+                                  00000000         1   data ,g         0
+  _fmr4_addr
+                                  00000000         1   data ,g         0
+  _fmr1_addr
+                                  00000000         1   data ,g         0
+  _fmr0_addr
+                                  00000000         1   data ,g         0
+  _kupic_addr
+                                  00000000         1   data ,g         0
+  _adic_addr
+                                  00000000         1   data ,g         0
+  _cmp1ic_addr
+                                  00000000         1   data ,g         0
+  _s0tic_addr
+                                  00000000         1   data ,g         0
+  _s0ric_addr
+                                  00000000         1   data ,g         0
+  _s1tic_addr
+                                  00000000         1   data ,g         0
+  _s1ric_addr
+                                  00000000         1   data ,g         0
+  _txic_addr
+                                  00000000         1   data ,g         0
+  _tzic_addr
+                                  00000000         1   data ,g         0
+  _int1ic_addr
+                                  00000000         1   data ,g         0
+  _int3ic_addr
+                                  00000000         1   data ,g         0
+  _tcic_addr
+                                  00000000         1   data ,g         0
+  _cmp0ic_addr
+                                  00000000         1   data ,g         0
+  _int0ic_addr
+                                  00000000         1   data ,g         0
+  _u0mr_addr
+                                  00000000         1   data ,g         0
+  _u1mr_addr
+                                  00000000         1   data ,g         0
+  _u0c0_addr
+                                  00000000         1   data ,g         0
+  _u1c0_addr
+                                  00000000         1   data ,g         0
+  _u0c1_addr
+                                  00000000         1   data ,g         0
+  _u1c1_addr
+                                  00000000         1   data ,g         0
+  _u0rb_addr
+                                  00000000         2   data ,g         0
+  _u1rb_addr
+                                  00000000         2   data ,g         0
+  _rmad0_addr
+                                  00000000         4   data ,g         0
+  _rmad1_addr
+                                  00000000         4   data ,g         0
+  _tc_addr
+                                  00000000         2   data ,g         0
+  _tm0_addr
+                                  00000000         2   data ,g         0
+  _tm1_addr
+                                  00000000         2   data ,g         0
+  _u0tb_addr
+                                  00000000         2   data ,g         0
+  _u1tb_addr
+                                  00000000         2   data ,g         0
+  _ad_addr
+                                  00000000         2   data ,g         0
+
+FILE=D:/workspace/WDTR/WDTR/pub
+                                  0000005a  0000010e        b5
+  _sysclk_cfg
+                                  0000005a        49   func ,g         0
+  _port_init
+                                  000000a4        21   func ,g         0
+  _enter_stop_mode
+                                  000000c4        19   func ,g         0
+  _io_scan
+                                  000000de         2   func ,g         0
+  _INT_keyi
+                                  000000e0         6   func ,g         0
+  $delay1ms
+                                  000000e6        24   func ,g         0
+
+FILE=D:/workspace/WDTR/WDTR/rda1845
+                                  00000110  00000c4d       b3e
+  _send_group
+                                  00000110         f   func ,g         0
+  _send_volu
+                                  00000120        97   func ,g         0
+  _send_freq
+                                  000001b6         7   func ,g         0
+  _send_tx_freq
+                                  000001be        34   func ,g         0
+  _send_ctcss
+                                  000001f2        36   func ,g         0
+  _sq_reset_init
+                                  00000228         9   func ,g         0
+  _sq_handle_main_program
+                                  00000230       54e   func ,g         0
+  _speaker_off
+                                  0000077e         1   func ,g         0
+  _speaker_on
+                                  00000780        38   func ,g         0
+  _speaker_on_ctcss
+                                  000007b8        35   func ,g         0
+  $spi_read_byte
+                                  000007ec        35   func ,g         0
+  $spi_write_byte
+                                  00000822        3b   func ,g         0
+  $spi_write_1845
+                                  0000085c        48   func ,g         0
+  _rda1845_default_setting
+                                  000008a4        22   func ,g         0
+  _rda1845_reset_init
+                                  000008c6       291   func ,g         0
+  _send_jingzao_sq
+                                  00000b58        2c   func ,g         0
+  _send_nengliang_sq
+                                  00000b84        7f   func ,g         0
+  _send_high_low_power
+                                  00000c02        4c   func ,g         0
+  _sq_state
+                                  00000497         1   data ,g         0
+  _crystal
+                                  00000498         1   data ,g         0
+  _sq_number
+                                  00000499         1   data ,g         0
+  _freq_index
+                                  0000049a         1   data ,g         0
+  _sq_jingzao_value
+                                  0000049b         1   data ,g         0
+  _sq_nengliang_value
+                                  0000049c         1   data ,g         0
+  _sq_1ms
+                                  0000040c         2   data ,g         0
+  _pdn_1ms
+                                  0000040e         2   data ,g         0
+  _sq_cishu
+                                  0000049f         1   data ,g         0
+  _ctcss_inter_h
+                                  0000049d         1   data ,g         0
+  _ctcss_inter_l
+                                  0000049e         1   data ,g         0
+  _ctcss_inter_count
+                                  00000410         2   data ,g         0
+  _jms
+                                  00000412         2   data ,g         0
+  _kuandu_0
+                                  00000414         2   data ,g         0
+  _kuandu_1
+                                  00000416         2   data ,g         0
+  _ctcss_in_timer
+                                  00000418         c   data ,g         0
+  _ctcss_in_delta
+                                  00000424         a   data ,g         0
+  _ctcss_index
+                                  000004a2         1   data ,g         0
+  _ctcss_comp_count_correct
+                                  000004a4         1   data ,g         0
+  _ctcss_comp_count_error
+                                  000004a3         1   data ,g         0
+  _kuandu_counter
+                                  000004a0         1   data ,g         0
+  _count_ctcss_pulse_number
+                                  000004a1         1   data ,g         0
+  _ctcss_pulse_kuandu
+                                  0000042e         2   data ,g         0
+  _freq_0
+                                  000004aa         1   data ,g         0
+  _freq_8
+                                  000004ab         1   data ,g         0
+  _freq_16
+                                  000004ac         1   data ,g         0
+  _freq_26
+                                  000004ad         1   data ,g         0
+  _freq_30
+                                  000004ae         1   data ,g         0
+  _uart_rx_point
+                                  00000496         1   data ,g         0
+  _uart_rx_length
+                                  000004b4         1   data ,g         0
+  _uart_rxbuf
+                                  00000444        2a   data ,g         0
+  _uart_rx_data
+                                  000004b3         1   data ,g         0
+  _uart_rx_count
+                                  000004af         1   data ,g         0
+  _uart_tx_1ms_count
+                                  0000046e         2   data ,g         0
+  _tx_freq
+                                  00000470         4   data ,g         0
+  _tx_freq1
+                                  00000474         4   data ,g         0
+  _tx_freq2
+                                  00000478         4   data ,g         0
+  _tx_rest
+                                  0000047c         4   data ,g         0
+  _tx_rest1
+                                  00000480         4   data ,g         0
+  _tx_rest2
+                                  00000484         4   data ,g         0
+  _tx_result
+                                  00000488         4   data ,g         0
+  _Flag
+                                  000004a5         5   data ,g         0
+  _vol
+                                  000004b0         1   data ,g         0
+  _uart_tx_buf
+                                  00000430        14   data ,g         0
+  _uart_tx_length
+                                  000004b2         1   data ,g         0
+  _uart_tx_point
+                                  000004b1         1   data ,g         0
+  __SB__
+                                  00000400         0   none ,g         0
+  __mbase
+                                  0000048c         0   none ,g         0
+  __memt
+                                  00000406         0   none ,g         0
+  __mnext
+                                  0000048e         0   none ,g         0
+  __msize
+                                  00000490         0   none ,g         0
+  __pool
+                                  00000400         0   none ,g         0
+
+FILE=D:/workspace/WDTR/WDTR/resetprg
+                                  00000c4e  00000c56         9
+  _Initialise
+                                  00000c4e         9   func ,g         0
+
+FILE=D:/workspace/WDTR/WDTR/time
+                                  00000c58  00000ff7       3a0
+  _timerc_ctcss_in_init
+                                  00000c58        5c   func ,g         0
+  _ctcss_kuandu_jiancha
+                                  00000cb4        5c   func ,g         0
+  _ctcss_in_main_program
+                                  00000d10       186   func ,g         0
+  _INT_INT3
+                                  00000e96        4e   func ,g         0
+  _INT_TimerC
+                                  00000ee4        78   func ,g         0
+  $timerz_ctcss_out_init
+                                  00000f5c        36   func ,g         0
+  _timez_stop
+                                  00000f92         a   func ,g         0
+  _timerx_init
+                                  00000f9c        18   func ,g         0
+  _INT_TimerX
+                                  00000fb4        38   func ,g         0
+  _sub_program_1ms
+                                  00000fec         c   func ,g         0
+
+FILE=D:/workspace/WDTR/WDTR/uart
+                                  00000ff8  000017ac       7b5
+  _uart_init_com
+                                  00000ff8        1f   func ,g         0
+  _uart_tx_init
+                                  00001018        19   func ,g         0
+  _uart_stop_tx
+                                  00001030        13   func ,g         0
+  _uart_stop_rx
+                                  00001044        14   func ,g         0
+  _uart_rx_init
+                                  00001058        1d   func ,g         0
+  _INT_UART1RX
+                                  00001074        8d   func ,g         0
+  _uart_rx_main_program
+                                  00001102         2   func ,g         0
+  _uart_init_5ms_timeout
+                                  00001104         9   func ,g         0
+  _uart_rx_timeout_main_program
+                                  0000110c        a5   func ,g         0
+  _uart_cmp_com_data
+                                  000011b2        26   func ,g         0
+  _uart_cmp_shaking
+                                  000011d8        26   func ,g         0
+  _uart_cmp_setgroup
+                                  000011fe       4fa   func ,g         0
+  _uart_cmp_volume
+                                  000016f8        3f   func ,g         0
+  _uart_cmp_ver_check
+                                  00001736        25   func ,g         0
+  $uart_tx_reply
+                                  0000175c        2e   func ,g         0
+  _INT_UART1TX
+                                  0000178a        23   func ,g         0
+  _uart_tx_main_program
+                                  000017ac         1   func ,g         0
+
+FILE=_i4divu
+                                  000017ae  000017fa        4d
+  __i4divU
+                                  000017ae        4d   func ,g         0
+
+FILE=_i4modu
+                                  000017fc  00001846        4b
+  __i4modU
+                                  000017fc        4b   func ,g         0
+
+FILE=_i4mulu
+                                  00001848  00001863        1c
+  __i4mulU
+                                  00001848        1c   func ,g         0
+
+SECTION=rom_NE
+FILE=D:/workspace/WDTR/WDTR/rda1845
+                                  0000c800  0000c8a3        a4
+  _ctcss_compare_tone
+                                  0000c800        4e   data ,g         0
+  _ctcss_inter_freq
+                                  0000c856        4e   data ,g         0
+  _sq_jingzao
+                                  0000c84e         8   data ,g         0
+
+FILE=D:/workspace/WDTR/WDTR/uart
+                                  0000c8a4  0000c8c5        22
+  _uart_cmp_connect
+                                  0000c8a4         8   data ,g         0
+  _uart_cmp_group
+                                  0000c8ac         a   data ,g         0
+  _uart_tx_group
+                                  0000c8b6        10   data ,g         0
+
+SECTION=rom_NO
+FILE=D:/workspace/WDTR/WDTR/rda1845
+                                  0000c8c6  0000c8ec        27
+  _ctcss_out_freq
+                                  0000c8c6        27   data ,g         0
+
+FILE=D:/workspace/WDTR/WDTR/uart
+                                  0000c8ed  0000c932        46
+  _uart_cmp_com
+                                  0000c8fe         7   data ,g         0
+  _uart_tx_connect
+                                  0000c905         f   data ,g         0
+  _uart_cmp_volu
+                                  0000c914         b   data ,g         0
+  _uart_tx_volu
+                                  0000c8ed        11   data ,g         0
+  _uart_cmp_ver
+                                  0000c91f         5   data ,g         0
+  _uart_tx_ver
+                                  0000c924         f   data ,g         0
+
+SECTION=interrupt
+FILE=ncrt0_rskr81b
+                                  0000c944  0000c9e6        a3
+  $exit
+                                  0000c9e4         0   none ,g         0
+  _exit
+                                  0000c9e4         0   none ,g         0
+  dummy_int
+                                  0000c9e6         0   none ,g         0
+

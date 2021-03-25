@@ -1,0 +1,5 @@
+0	1	mikroCARM.exe -MSF -DBG -p------------ -RA -BIN -APB -C -Y -DL -SSA -O11111112 -fo1E-5 -N"C:\Users\erosy\Documents\Mis Proyectos\Kleverness\DRIVER Radio 4463PRO\DriverRF4463PRO_F107RC\DriverRF4463PROMain.mcpar" -SP"C:\Users\erosy\Documents\Mikroelektronika\mikroC PRO for ARM_6.2\Defs\" -SP"C:\Users\erosy\Documents\Mikroelektronika\mikroC PRO for ARM_6.2\Uses\TI M3\" -SP"C:\Users\erosy\Documents\Mis Proyectos\Kleverness\DRIVER Radio 4463PRO\DriverRF4463PRO_F107RC\" -SP"C:\Users\erosy\Documents\Mis Proyectos\Kleverness\DRIVER Radio 4463PRO\DriverRF4463PRO_F107RC\DriverRF4463PRO_F107RC\" -IP"C:\Users\erosy\Documents\Mikroelektronika\mikroC PRO for ARM_6.2\Uses\TI M3\" "DriverRF4463PROMain.c"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\erosy\Documents\Mis Proyectos\Kleverness\DRIVER Radio 4463PRO\DriverRF4463PRO_F107RC\DriverRF4463PRO_F107RC'	 
+error: 0	340	File '------------.mlk' not found	 
+error: 0	340	File '' not found	 
+error: 0	102	Finished (with errors): 19 nov. 2020, 13:51:44	DriverRF4463PROMain.mcpar

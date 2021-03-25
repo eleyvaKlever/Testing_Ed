@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<MCU_DEVICE_FLAGS>
+  <DEVICE>
+    <DEVICE_NAME>STM32G071KB</DEVICE_NAME>
+    <DEVICE_CLOCK>2</DEVICE_CLOCK>
+    <SETTINGS>
+      <COUNT>29</COUNT>
+      <SETTING0>
+        <NAME>HSI16 clock enable</NAME>
+        <DESCRIPTION>HIS16 clock enabled</DESCRIPTION>
+      </SETTING0>
+      <SETTING1>
+        <NAME>HSI16 clock division factor</NAME>
+        <DESCRIPTION>Divided by 8</DESCRIPTION>
+      </SETTING1>
+      <SETTING2>
+        <NAME>HSE clock enable</NAME>
+        <DESCRIPTION>HSE clock disabled</DESCRIPTION>
+      </SETTING2>
+      <SETTING3>
+        <NAME>HSE crystal oscillator bypass</NAME>
+        <DESCRIPTION>HSE crystal oscillator not bypassed</DESCRIPTION>
+      </SETTING3>
+      <SETTING4>
+        <NAME>PLL enable</NAME>
+        <DESCRIPTION>PLL disabled</DESCRIPTION>
+      </SETTING4>
+      <SETTING5>
+        <NAME>Microcontroller clock output prescaler</NAME>
+        <DESCRIPTION>Divided by 1</DESCRIPTION>
+      </SETTING5>
+      <SETTING6>
+        <NAME>Microcontroller clock output</NAME>
+        <DESCRIPTION>No clock, MCO output disabled</DESCRIPTION>
+      </SETTING6>
+      <SETTING7>
+        <NAME>APB prescaler</NAME>
+        <DESCRIPTION>Divided by 1</DESCRIPTION>
+      </SETTING7>
+      <SETTING8>
+        <NAME>AHB prescaler</NAME>
+        <DESCRIPTION>Divided by 1</DESCRIPTION>
+      </SETTING8>
+      <SETTING9>
+        <NAME>System clock switch</NAME>
+        <DESCRIPTION>HSISYS</DESCRIPTION>
+      </SETTING9>
+      <SETTING10>
+        <NAME>PLL input clock source</NAME>
+        <DESCRIPTION>HSI16</DESCRIPTION>
+      </SETTING10>
+      <SETTING11>
+        <NAME>Division factor M of the PLL input clock divider</NAME>
+        <DESCRIPTION>Divided by 1</DESCRIPTION>
+      </SETTING11>
+      <SETTING12>
+        <NAME>PLL frequency multiplication factor N</NAME>
+        <DESCRIPTION>8</DESCRIPTION>
+      </SETTING12>
+      <SETTING13>
+        <NAME>PLLPCLK clock output enable</NAME>
+        <DESCRIPTION>PLL output disabled</DESCRIPTION>
+      </SETTING13>
+      <SETTING14>
+        <NAME>PLL VCO division factor P for PLLPCLK clock output</NAME>
+        <DESCRIPTION>Divided by 2</DESCRIPTION>
+      </SETTING14>
+      <SETTING15>
+        <NAME>PLLQCLK clock output enable</NAME>
+        <DESCRIPTION>PLLQ output disabled</DESCRIPTION>
+      </SETTING15>
+      <SETTING16>
+        <NAME>PLL VCO division factor Q for PLLQCLK clock output</NAME>
+        <DESCRIPTION>Divided by 2</DESCRIPTION>
+      </SETTING16>
+      <SETTING17>
+        <NAME>PLLRCLK clock output enable</NAME>
+        <DESCRIPTION>PLLRCLK output disabled</DESCRIPTION>
+      </SETTING17>
+      <SETTING18>
+        <NAME>PLL VCO division factor R for PLLRCLK clock output</NAME>
+        <DESCRIPTION>Divided by 2</DESCRIPTION>
+      </SETTING18>
+      <SETTING19>
+        <NAME>USART1 clock source selection</NAME>
+        <DESCRIPTION>SYSCLK</DESCRIPTION>
+      </SETTING19>
+      <SETTING20>
+        <NAME>USART2 clock source selection</NAME>
+        <DESCRIPTION>HSI16</DESCRIPTION>
+      </SETTING20>
+      <SETTING21>
+        <NAME>I2C1 clock source selection</NAME>
+        <DESCRIPTION>PCLK</DESCRIPTION>
+      </SETTING21>
+      <SETTING22>
+        <NAME>ADCs clock source selection</NAME>
+        <DESCRIPTION>SYSCLK</DESCRIPTION>
+      </SETTING22>
+      <SETTING23>
+        <NAME>LSE oscillator enable</NAME>
+        <DESCRIPTION>LSE disabled</DESCRIPTION>
+      </SETTING23>
+      <SETTING24>
+        <NAME>LSE oscillator bypass</NAME>
+        <DESCRIPTION>LSE not bypassed</DESCRIPTION>
+      </SETTING24>
+      <SETTING25>
+        <NAME>RTC clock source selection</NAME>
+        <DESCRIPTION>No clock</DESCRIPTION>
+      </SETTING25>
+      <SETTING26>
+        <NAME>RTC clock enable</NAME>
+        <DESCRIPTION>RTC clock disabled</DESCRIPTION>
+      </SETTING26>
+      <SETTING27>
+        <NAME>LSI oscillator enable</NAME>
+        <DESCRIPTION>LSI disabled</DESCRIPTION>
+      </SETTING27>
+      <SETTING28>
+        <NAME>Voltage scaling range selection</NAME>
+        <DESCRIPTION>Range 2</DESCRIPTION>
+      </SETTING28>
+    </SETTINGS>
+  </DEVICE>
+</MCU_DEVICE_FLAGS>

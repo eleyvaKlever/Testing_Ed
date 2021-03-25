@@ -1,0 +1,579 @@
+##########################################
+# (1) LINK INFORMATION                   #
+##########################################
+c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\bin\ln30.exe @E:\send\4463\new\si4463_demo(normal_new lcd)\WDTR\Debug\WDTR.m16cl
+
+# ID CODE DATA
+.ID  "joyceng"
+
+# OPTION FUNCTION SELECT REGISTER
+.OFSREG  FFH
+
+# LINK FILE INFORMATION
+ncrt0_rskr81b (E:\send\4463\new\si4463_demo(normal_new lcd)\WDTR\Debug\ncrt0_rskr81b.r30)
+	Jan  4 09:45:02 2017
+
+resetprg (E:\send\4463\new\si4463_demo(normal_new lcd)\WDTR\Debug\resetprg.r30)
+	Jan  4 09:45:02 2017
+
+main (E:\send\4463\new\si4463_demo(normal_new lcd)\WDTR\Debug\main.r30)
+	Jan  4 09:45:02 2017
+
+flash (E:\send\4463\new\si4463_demo(normal_new lcd)\WDTR\Debug\flash.r30)
+	Jan  4 09:45:01 2017
+
+_i4divu (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib)
+	Jan  6 15:31:32 2010
+
+_i4mulu (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib)
+	Jan  6 15:31:33 2010
+
+_mbase (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib)
+	Jan  6 15:31:35 2010
+
+mdata (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib)
+	Jan  6 15:31:49 2010
+
+
+##########################################
+# (2) SECTION INFORMATION                #
+##########################################
+# SECTION                        ATR TYPE    START  LENGTH ALIGN MODULENAME
+data_SE                          ABS DATA    000400 000000       ncrt0_rskr81b
+bss_SE                           REL DATA    000400 000000 2     ncrt0_rskr81b
+data_SO                          REL DATA    000400 000000       ncrt0_rskr81b
+bss_SO                           REL DATA    000400 000000       ncrt0_rskr81b
+data_NE                          REL DATA    000400 000000 2     ncrt0_rskr81b
+                                 REL DATA    000400 000070 2     main
+                                 REL DATA    000470 00000C 2     mdata
+bss_NE                           REL DATA    00047C 000000 2     ncrt0_rskr81b
+                                 REL DATA    00047C 000018 2     main
+                                 REL DATA    000494 00000E 2     flash
+                                 REL DATA    0004A2 000002 2     _mbase
+                                 REL DATA    0004A4 000006 2     mdata
+data_NO                          REL DATA    0004AA 000000       ncrt0_rskr81b
+                                 REL DATA    0004AA 000047       main
+bss_NO                           REL DATA    0004F1 000000       ncrt0_rskr81b
+                                 REL DATA    0004F1 000028       main
+                                 REL DATA    000519 000002       flash
+stack                            REL DATA    00051C 000100 2     ncrt0_rskr81b
+heap                             REL DATA    00061C 000300       ncrt0_rskr81b
+rom_NE                           ABS ROMDATA 00C800 000000       ncrt0_rskr81b
+                                 REL ROMDATA 00C800 000470 2     main
+rom_NO                           REL ROMDATA 00CC70 000000       ncrt0_rskr81b
+                                 REL ROMDATA 00CC70 000382       main
+data_SEI                         REL ROMDATA 00CFF2 000000 2     ncrt0_rskr81b
+data_SOI                         REL ROMDATA 00CFF2 000000       ncrt0_rskr81b
+data_NEI                         REL ROMDATA 00CFF2 000000 2     ncrt0_rskr81b
+                                 REL ROMDATA 00CFF2 000070       main
+                                 REL ROMDATA 00D062 00000C       mdata
+data_NOI                         REL ROMDATA 00D06E 000000       ncrt0_rskr81b
+                                 REL ROMDATA 00D06E 000047       main
+switch_table                     REL ROMDATA 00D0B5 000000       ncrt0_rskr81b
+program                          REL CODE    00D0B6 000000 2     ncrt0_rskr81b
+                                 REL CODE    00D0B6 000009 2     resetprg
+                                 REL CODE    00D0C0 001BF5 2     main
+                                 REL CODE    00ECB6 00021D 2     flash
+                                 REL CODE    00EED4 00004D 2     _i4divu
+                                 REL CODE    00EF22 00001C 2     _i4mulu
+interrupt                        REL CODE    00EF3E 000000 2     ncrt0_rskr81b
+                                 REL CODE    00EF3E 0000A3       ncrt0_rskr81b
+vector                           ABS ROMDATA 00FEDC 000100       ncrt0_rskr81b
+fvector                          ABS ROMDATA 00FFFC 000004       ncrt0_rskr81b
+# Total -------------------------------------------------------------------
+                                     DATA           00051B(0001307) Byte(s)
+                                     ROMDATA        0009B9(0002489) Byte(s)
+                                     CODE           001F2B(0007979) Byte(s)
+
+##########################################
+# (3) GLOBAL LABEL INFORMATION           #
+##########################################
+$GPIO_SET          00d880  $block_erase       00ee14  $data_write        00ee5a
+$delay_1ms         00ebda  $delay_x10ms       00ec1a  $exit              00efde
+$flash_load        00ed78  $flash_rewrite     00ed96  $key_opt           00dcd4
+$spi_byte          00da62  $spi_fast_read     00db6e  $spi_read          00db10
+$spi_write         00daac  $wr_cmd            00e878  $wr_data           00e7dc
+_DATA_0            00e8bc  _DATA_1            00e8ac  _Flag              0004f1
+_INT_TimerX        00ec58  _Initialise        00d0b6  _RF_FRR_CTL_A_MO   00cc4c
+_RF_MODEM_AFC_GE   00cd36  _RF_MODEM_AFC_GE   00cd83  _RF_MODEM_AFC_GE   0004b7
+_RF_MODEM_AGC_CO   00cfdc  _RF_MODEM_AGC_WI   00cdd0  _RF_MODEM_AGC_WI   00ce33
+_RF_MODEM_AGC_WI   0004c4  _RF_MODEM_BCR_OS   00cc70  _RF_MODEM_BCR_OS   00ccd3
+_RF_MODEM_BCR_OS   0004aa  _RF_MODEM_CHFLT_   00c934  _RF_MODEM_CHFLT_   00c9b8
+_RF_MODEM_CHFLT_   00041c  _RF_MODEM_CHFLT_   00ca3c  _RF_MODEM_CHFLT_   00cac0
+_RF_MODEM_CHFLT_   00042c  _RF_MODEM_CHFLT_   00cb44  _RF_MODEM_CHFLT_   00cbc8
+_RF_MODEM_CHFLT_   00043c  _RF_MODEM_MOD_TY   00c800  _RF_MODEM_MOD_TY   000400
+_RF_MODEM_OOK_CN   00ce96  _RF_MODEM_OOK_CN   00cf0f  _RF_MODEM_OOK_CN   0004d1
+_RF_MODEM_TX_RAM   00c884  _RF_MODEM_TX_RAM   00c8dc  _RF_MODEM_TX_RAM   000410
+_RF_POWER_UP_dat   00cfd5  _RF_SYNTH_PFDCP_   00cf88  _RF_SYNTH_PFDCP_   0004e0
+_SI4463_init       00d354  _Tab_DispCode      00cfe1  __i4divU           00eed4
+__i4mulU           00ef22  __mbase            0004a2  __memt             000476
+__mnext            0004a4  __msize            0004a6  __pool             000470
+_block_select      000519  _check_cts         00daec  _clr_interrupt     00d8e6
+_clr_lcd           00df20  _cnt_10s           000516  _config_reset      00eebc
+_count_15hz        000518  _count_1hz         00047c  _count_1s          0004ef
+_count_flash       0004ee  _delay_10ms        00ebfe  _dis_bw            00e2ce
+_dis_dr            00e070  _dis_fd            00e1e4  _dis_freq          00df6c
+_dis_mode          00e788  _dis_power         00e03a  _dis_ram           00044c
+_dis_rssi          00e5a6  _dis_rx            00e4ca  _dis_sign          00e6b4
+_dis_tx            00e3ee  _enable_rx_inter   00d908  _enable_tx_inter   00d928
+_exit              00efde  _fifo_reset        00d8d2  _flash_cfg         00049c
+_flash_copy        00e8cc  _flash_first       00ed42  _freq1             000512
+_freq2             000511  _freq3             000510  _full_lcd          00dee4
+_have_set          00050d  _key_value         00050c  _main              00d0c0
+_mode              00050b  _nirq_cnt          0004f0  _nop_10            00ec34
+_old_mode          00050f  _port_init         00ebb8  _power             000513
+_poweron_dis       00df40  _rate              000515  _reach_15hz        0004eb
+_reach_1s          0004ed  _reach_flash       0004ec  _reset_mode        000517
+_result            00051a  _rf_init_freq      00e992  _rf_standby        00d946
+_rf_timeout        00047e  _rssi              000514  _rx_buf            0004f2
+_rx_cnt            00046c  _rx_init           00d9bc  _rx_start          00d974
+_rx_start_test     00d996  _scan_key          00dc92  _sdn_reset         00dc4e
+_set               00050e  _spi_read_buf      000480  _spi_read_fifo     00dc0e
+_spi_write_fifo    00dbb4  _sysclk_cfg        00eb6a  _time_opt          00e8f2
+_timerx_init       00ec40  _tx_cnt            000468  _tx_const_aa       00da36
+_tx_data           00d9d8  _tx_ph_data        00cc62  _tx_start          00d95a
+_tx_test_aa_data   00cc54  _write_addr        000494  _write_address_i   00ecb6
+_write_data        000496  dummy_int          00efe0  start              00ef3e
+
+##########################################
+# (4) GLOBAL EQU SYMBOL INFORMATION      #
+##########################################
+__SB__           00000400  
+
+##########################################
+# (5) GLOBAL EQU BIT-SYMBOL INFORMATION  #
+##########################################
+
+##########################################
+# (6) LOCAL LABEL INFORMATION            #
+##########################################
+@ ncrt0_rskr81b ( E:\send\4463\new\si4463_demo(normal_new lcd)\WDTR\Debug\ncrt0_rskr81b.r30 )
+@ resetprg ( E:\send\4463\new\si4463_demo(normal_new lcd)\WDTR\Debug\resetprg.r30 )
+@ main ( E:\send\4463\new\si4463_demo(normal_new lcd)\WDTR\Debug\main.r30 )
+@ flash ( E:\send\4463\new\si4463_demo(normal_new lcd)\WDTR\Debug\flash.r30 )
+@ _i4divu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ _i4mulu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ _mbase ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+
+##########################################
+# (7) LOCAL EQU SYMBOL INFORMATION       #
+##########################################
+@ ncrt0_rskr81b ( E:\send\4463\new\si4463_demo(normal_new lcd)\WDTR\Debug\ncrt0_rskr81b.r30 )
+@ resetprg ( E:\send\4463\new\si4463_demo(normal_new lcd)\WDTR\Debug\resetprg.r30 )
+@ main ( E:\send\4463\new\si4463_demo(normal_new lcd)\WDTR\Debug\main.r30 )
+@ flash ( E:\send\4463\new\si4463_demo(normal_new lcd)\WDTR\Debug\flash.r30 )
+@ _i4divu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ _i4mulu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ _mbase ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+
+##########################################
+# (8) LOCAL EQU BIT-SYMBOL INFORMATION   #
+##########################################
+@ ncrt0_rskr81b ( E:\send\4463\new\si4463_demo(normal_new lcd)\WDTR\Debug\ncrt0_rskr81b.r30 )
+@ resetprg ( E:\send\4463\new\si4463_demo(normal_new lcd)\WDTR\Debug\resetprg.r30 )
+@ main ( E:\send\4463\new\si4463_demo(normal_new lcd)\WDTR\Debug\main.r30 )
+@ flash ( E:\send\4463\new\si4463_demo(normal_new lcd)\WDTR\Debug\flash.r30 )
+@ _i4divu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ _i4mulu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ _mbase ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\r8clib.lib )
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+data_SE
+                                  00000400  00000400         0   1
+bss_SE
+                                  00000400  00000400         0   2
+data_SO
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  0000047b        7c   2
+bss_NE
+                                  0000047c  000004a9        2e   2
+data_NO
+                                  000004aa  000004f0        47   1
+bss_NO
+                                  000004f1  0000051a        2a   1
+stack
+                                  0000051c  0000061b       100   2
+heap
+                                  0000061c  0000091b       300   1
+rom_NE
+                                  0000c800  0000cc6f       470   1
+rom_NO
+                                  0000cc70  0000cff1       382   1
+data_SEI
+                                  0000cff2  0000cff2         0   2
+data_SOI
+                                  0000cff2  0000cff2         0   1
+data_NEI
+                                  0000cff2  0000d06d        7c   2
+data_NOI
+                                  0000d06e  0000d0b4        47   1
+switch_table
+                                  0000d0b5  0000d0b5         0   1
+program
+                                  0000d0b6  0000ef3d      1e88   2
+interrupt
+                                  0000ef3e  0000efe0        a3   2
+vector
+                                  0000fedc  0000ffdb       100   1
+fvector
+                                  0000fffc  0000ffff         4   1
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=data_SE
+FILE=ncrt0_rskr81b
+                                  00000400  00000400         0
+  __SB__
+                                  00000400         0   none ,g         0
+
+SECTION=data_NE
+FILE=E:/send/4463/new/si4463_demo(normal_new lcd)/WDTR/main
+                                  00000400  0000046f        70
+  _RF_MODEM_MOD_TYPE_12_data
+                                  00000400        10   data ,g         0
+  _RF_MODEM_TX_RAMP_DELAY_8_data
+                                  00000410         c   data ,g         0
+  _RF_MODEM_CHFLT_RX1_CHFLT_COE13_7_0_12_data
+                                  0000041c        10   data ,g         0
+  _RF_MODEM_CHFLT_RX1_CHFLT_COE1_7_0_12_data
+                                  0000042c        10   data ,g         0
+  _RF_MODEM_CHFLT_RX2_CHFLT_COE7_7_0_12_data
+                                  0000043c        10   data ,g         0
+  _dis_ram
+                                  0000044c        1c   data ,g         0
+  _tx_cnt
+                                  00000468         4   data ,g         0
+  _rx_cnt
+                                  0000046c         4   data ,g         0
+
+FILE=mdata
+                                  00000470  0000047b         c
+  __memt
+                                  00000476         0   none ,g         0
+  __pool
+                                  00000470         0   none ,g         0
+
+SECTION=bss_NE
+FILE=E:/send/4463/new/si4463_demo(normal_new lcd)/WDTR/main
+                                  0000047c  00000493        18
+  _count_1hz
+                                  0000047c         2   data ,g         0
+  _rf_timeout
+                                  0000047e         2   data ,g         0
+  _spi_read_buf
+                                  00000480        14   data ,g         0
+
+FILE=E:/send/4463/new/si4463_demo(normal_new lcd)/WDTR/flash
+                                  00000494  000004a1         e
+  _write_addr
+                                  00000494         2   data ,g         0
+  _write_data
+                                  00000496         6   data ,g         0
+  _flash_cfg
+                                  0000049c         6   data ,g         0
+
+FILE=_mbase
+                                  000004a2  000004a3         2
+  __mbase
+                                  000004a2         0   none ,g         0
+
+FILE=mdata
+                                  000004a4  000004a9         6
+  __mnext
+                                  000004a4         0   none ,g         0
+  __msize
+                                  000004a6         0   none ,g         0
+
+SECTION=data_NO
+FILE=E:/send/4463/new/si4463_demo(normal_new lcd)/WDTR/main
+                                  000004aa  000004f0        47
+  _RF_MODEM_BCR_OSR_1_9_data
+                                  000004aa         d   data ,g         0
+  _RF_MODEM_AFC_GEAR_7_data
+                                  000004b7         d   data ,g         0
+  _RF_MODEM_AGC_WINDOW_SIZE_9_data
+                                  000004c4         d   data ,g         0
+  _RF_MODEM_OOK_CNT1_11_data
+                                  000004d1         f   data ,g         0
+  _RF_SYNTH_PFDCP_CPFF_7_data
+                                  000004e0         b   data ,g         0
+  _reach_15hz
+                                  000004eb         1   data ,g         0
+  _reach_flash
+                                  000004ec         1   data ,g         0
+  _reach_1s
+                                  000004ed         1   data ,g         0
+  _count_flash
+                                  000004ee         1   data ,g         0
+  _count_1s
+                                  000004ef         1   data ,g         0
+  _nirq_cnt
+                                  000004f0         1   data ,g         0
+
+SECTION=bss_NO
+FILE=ncrt0_rskr81b
+                                  000004f1  000004f1         0
+  _Flag
+                                  000004f1         1   data ,g         0
+
+FILE=E:/send/4463/new/si4463_demo(normal_new lcd)/WDTR/main
+                                  000004f1  00000518        28
+  _rx_buf
+                                  000004f2        19   data ,g         0
+  _mode
+                                  0000050b         1   data ,g         0
+  _key_value
+                                  0000050c         1   data ,g         0
+  _have_set
+                                  0000050d         1   data ,g         0
+  _set
+                                  0000050e         1   data ,g         0
+  _old_mode
+                                  0000050f         1   data ,g         0
+  _mode
+                                  0000050b         1   data ,g         0
+  _freq3
+                                  00000510         1   data ,g         0
+  _freq2
+                                  00000511         1   data ,g         0
+  _freq1
+                                  00000512         1   data ,g         0
+  _power
+                                  00000513         1   data ,g         0
+  _rssi
+                                  00000514         1   data ,g         0
+  _rate
+                                  00000515         1   data ,g         0
+  _cnt_10s
+                                  00000516         1   data ,g         0
+  _reset_mode
+                                  00000517         1   data ,g         0
+  _count_15hz
+                                  00000518         1   data ,g         0
+
+FILE=E:/send/4463/new/si4463_demo(normal_new lcd)/WDTR/flash
+                                  00000519  0000051a         2
+  _block_select
+                                  00000519         1   data ,g         0
+  _result
+                                  0000051a         1   data ,g         0
+
+SECTION=rom_NE
+FILE=E:/send/4463/new/si4463_demo(normal_new lcd)/WDTR/main
+                                  0000c800  0000cc6f       470
+  _RF_MODEM_MOD_TYPE_12
+                                  0000c800        84   data ,g         0
+  _RF_MODEM_TX_RAMP_DELAY_8_433
+                                  0000c884        58   data ,g         0
+  _RF_MODEM_TX_RAMP_DELAY_8_850
+                                  0000c8dc        58   data ,g         0
+  _RF_MODEM_CHFLT_RX1_CHFLT_COE13_7_0_12_433
+                                  0000c934        84   data ,g         0
+  _RF_MODEM_CHFLT_RX1_CHFLT_COE13_7_0_12_850
+                                  0000c9b8        84   data ,g         0
+  _RF_MODEM_CHFLT_RX1_CHFLT_COE1_7_0_12_433
+                                  0000ca3c        84   data ,g         0
+  _RF_MODEM_CHFLT_RX1_CHFLT_COE1_7_0_12_850
+                                  0000cac0        84   data ,g         0
+  _RF_MODEM_CHFLT_RX2_CHFLT_COE7_7_0_12_433
+                                  0000cb44        84   data ,g         0
+  _RF_MODEM_CHFLT_RX2_CHFLT_COE7_7_0_12_850
+                                  0000cbc8        84   data ,g         0
+  _RF_FRR_CTL_A_MODE_4_data
+                                  0000cc4c         8   data ,g         0
+  _tx_test_aa_data
+                                  0000cc54         e   data ,g         0
+  _tx_ph_data
+                                  0000cc62         e   data ,g         0
+
+SECTION=rom_NO
+FILE=E:/send/4463/new/si4463_demo(normal_new lcd)/WDTR/main
+                                  0000cc70  0000cff1       382
+  _RF_MODEM_BCR_OSR_1_9_433
+                                  0000cc70        63   data ,g         0
+  _RF_MODEM_BCR_OSR_1_9_850
+                                  0000ccd3        63   data ,g         0
+  _RF_MODEM_AFC_GEAR_7_433
+                                  0000cd36        4d   data ,g         0
+  _RF_MODEM_AFC_GEAR_7_850
+                                  0000cd83        4d   data ,g         0
+  _RF_MODEM_AGC_WINDOW_SIZE_9_433
+                                  0000cdd0        63   data ,g         0
+  _RF_MODEM_AGC_WINDOW_SIZE_9_850
+                                  0000ce33        63   data ,g         0
+  _RF_MODEM_OOK_CNT1_11_433
+                                  0000ce96        79   data ,g         0
+  _RF_MODEM_OOK_CNT1_11_850
+                                  0000cf0f        79   data ,g         0
+  _RF_SYNTH_PFDCP_CPFF_7
+                                  0000cf88        4d   data ,g         0
+  _RF_POWER_UP_data
+                                  0000cfd5         7   data ,g         0
+  _RF_MODEM_AGC_CONTROL_1_data
+                                  0000cfdc         5   data ,g         0
+  _Tab_DispCode
+                                  0000cfe1        11   data ,g         0
+
+SECTION=program
+FILE=E:/send/4463/new/si4463_demo(normal_new lcd)/WDTR/resetprg
+                                  0000d0b6  0000d0be         9
+  _Initialise
+                                  0000d0b6         9   func ,g         0
+
+FILE=E:/send/4463/new/si4463_demo(normal_new lcd)/WDTR/main
+                                  0000d0c0  0000ecb4      1bf5
+  _main
+                                  0000d0c0       293   func ,g         0
+  _SI4463_init
+                                  0000d354       52d   func ,g         0
+  $GPIO_SET
+                                  0000d880        52   func ,g         0
+  _fifo_reset
+                                  0000d8d2        13   func ,g         0
+  _clr_interrupt
+                                  0000d8e6        22   func ,g         0
+  _enable_rx_interrupt
+                                  0000d908        21   func ,g         0
+  _enable_tx_interrupt
+                                  0000d928        1e   func ,g         0
+  _rf_standby
+                                  0000d946        13   func ,g         0
+  _tx_start
+                                  0000d95a        1a   func ,g         0
+  _rx_start
+                                  0000d974        22   func ,g         0
+  _rx_start_test
+                                  0000d996        26   func ,g         0
+  _rx_init
+                                  0000d9bc        1c   func ,g         0
+  _tx_data
+                                  0000d9d8        5e   func ,g         0
+  _tx_const_aa
+                                  0000da36        2c   func ,g         0
+  $spi_byte
+                                  0000da62        4b   func ,g         0
+  $spi_write
+                                  0000daac        3f   func ,g         0
+  _check_cts
+                                  0000daec        25   func ,g         0
+  $spi_read
+                                  0000db10        5d   func ,g         0
+  $spi_fast_read
+                                  0000db6e        47   func ,g         0
+  _spi_write_fifo
+                                  0000dbb4        59   func ,g         0
+  _spi_read_fifo
+                                  0000dc0e        40   func ,g         0
+  _sdn_reset
+                                  0000dc4e        45   func ,g         0
+  _scan_key
+                                  0000dc92        42   func ,g         0
+  $key_opt
+                                  0000dcd4       20f   func ,g         0
+  _full_lcd
+                                  0000dee4        3d   func ,g         0
+  _clr_lcd
+                                  0000df20        20   func ,g         0
+  _poweron_dis
+                                  0000df40        2c   func ,g         0
+  _dis_freq
+                                  0000df6c        ce   func ,g         0
+  _dis_power
+                                  0000e03a        35   func ,g         0
+  _dis_dr
+                                  0000e070       174   func ,g         0
+  _dis_fd
+                                  0000e1e4        ea   func ,g         0
+  _dis_bw
+                                  0000e2ce       120   func ,g         0
+  _dis_tx
+                                  0000e3ee        dc   func ,g         0
+  _dis_rx
+                                  0000e4ca        dc   func ,g         0
+  _dis_rssi
+                                  0000e5a6       10e   func ,g         0
+  _dis_sign
+                                  0000e6b4        d4   func ,g         0
+  _dis_mode
+                                  0000e788        55   func ,g         0
+  $wr_data
+                                  0000e7dc        9b   func ,g         0
+  $wr_cmd
+                                  0000e878        34   func ,g         0
+  _DATA_1
+                                  0000e8ac        11   func ,g         0
+  _DATA_0
+                                  0000e8bc        10   func ,g         0
+  _flash_copy
+                                  0000e8cc        25   func ,g         0
+  _time_opt
+                                  0000e8f2        a0   func ,g         0
+  _rf_init_freq
+                                  0000e992       1d8   func ,g         0
+  _sysclk_cfg
+                                  0000eb6a        4e   func ,g         0
+  _port_init
+                                  0000ebb8        23   func ,g         0
+  $delay_1ms
+                                  0000ebda        23   func ,g         0
+  _delay_10ms
+                                  0000ebfe        1d   func ,g         0
+  $delay_x10ms
+                                  0000ec1a        19   func ,g         0
+  _nop_10
+                                  0000ec34         c   func ,g         0
+  _timerx_init
+                                  0000ec40        19   func ,g         0
+  _INT_TimerX
+                                  0000ec58        5d   func ,g         0
+
+FILE=E:/send/4463/new/si4463_demo(normal_new lcd)/WDTR/flash
+                                  0000ecb6  0000eed2       21d
+  _write_address_init
+                                  0000ecb6        8b   func ,g         0
+  _flash_first
+                                  0000ed42        36   func ,g         0
+  $flash_load
+                                  0000ed78        1f   func ,g         0
+  $flash_rewrite
+                                  0000ed96        7d   func ,g         0
+  $block_erase
+                                  0000ee14        47   func ,g         0
+  $data_write
+                                  0000ee5a        62   func ,g         0
+  _config_reset
+                                  0000eebc        17   func ,g         0
+
+FILE=_i4divu
+                                  0000eed4  0000ef20        4d
+  __i4divU
+                                  0000eed4        4d   func ,g         0
+
+FILE=_i4mulu
+                                  0000ef22  0000ef3d        1c
+  __i4mulU
+                                  0000ef22        1c   func ,g         0
+
+SECTION=interrupt
+FILE=ncrt0_rskr81b
+                                  0000ef3e  0000efe0        a3
+  $exit
+                                  0000efde         0   none ,g         0
+  _exit
+                                  0000efde         0   none ,g         0
+  dummy_int
+                                  0000efe0         0   none ,g         0
+

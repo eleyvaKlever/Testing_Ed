@@ -1,0 +1,35 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32L072CB -UICD -RA -BIN -APB -LHF -C -Y -DL -SSA -O11111111 -fo16 -N"C:\Users\Crow\OneDrive\Escritorio\Proyect Radio SI4463Pro\DriverRF4463PRO_G071KB [ MikroC 6.2 ]14 DEC 2020 con RSSI\DriverRF4463PRO_G071KB [ MikroC 6.2 ]\DriverRF4463PRO.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M0\" -SP"C:\Users\Crow\OneDrive\Escritorio\Proyect Radio SI4463Pro\DriverRF4463PRO_G071KB [ MikroC 6.2 ]14 DEC 2020 con RSSI\DriverRF4463PRO_G071KB [ MikroC 6.2 ]\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M0\" "DriverRF4463PROMain.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_M0Plus_HSI48.emcl" "__Lib_GPIO_32L07x_Defs.emcl" "__Lib_GPIO_32L07x.emcl" "__Lib_CType.emcl" "__Lib_CString.emcl" "__Lib_CStdlib.emcl" "__Lib_Conversions.emcl" "__Lib_PrintOut.emcl" "__Lib_Sound.emcl" "__Lib_SPI_L0x_12.emcl" "__Lib_UART_12_45.emcl"	 
+diagnostics: 0	122	Compilation Started	STM32L072CB.c
+diagnostics: 22598	123	Compiled Successfully	STM32L072CB.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 165	123	Compiled Successfully	__Lib_Delays.c
+hint: 66	1164	Variable 'cycles_div_by_10' has been eliminated by optimizer	__Lib_Delays.c
+hint: 99	1164	Variable 'cycles_div_by_16' has been eliminated by optimizer	__Lib_Delays.c
+hint: 150	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+hint: 159	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 331	123	Compiled Successfully	__Lib_GPIO_32L07x_Defs.c
+diagnostics: 0	122	Compilation Started	driverspi.c
+warning: 139	1505	Suspicious pointer conversion	driverrf4463pro.c
+warning: 282	1505	Suspicious pointer conversion	driverrf4463pro.c
+error: 593	428	Nonexistent field 'IDR0'	driverrf4463pro.c
+hint: 571	1163	Variable 'i' has been declared, but not used	driverrf4463pro.c
+error: 626	428	Nonexistent field 'IDR0'	driverrf4463pro.c
+hint: 612	1163	Variable 'i' has been declared, but not used	driverrf4463pro.c
+hint: 642	1163	Variable 'ucFD_2' has been declared, but not used	driverrf4463pro.c
+hint: 642	1163	Variable 'ucFD_1' has been declared, but not used	driverrf4463pro.c
+hint: 642	1163	Variable 'ucFD_0' has been declared, but not used	driverrf4463pro.c
+warning: 816	1503	Result is not defined in function: 'ucRf4463SPIByte'	driverrf4463pro.c
+error: 829	428	Nonexistent field 'ODR12'	driverrf4463pro.c
+error: 836	428	Nonexistent field 'ODR12'	driverrf4463pro.c
+error: 845	428	Nonexistent field 'ODR12'	driverrf4463pro.c
+error: 846	428	Nonexistent field 'ODR12'	driverrf4463pro.c
+error: 849	428	Nonexistent field 'ODR12'	driverrf4463pro.c
+error: 873	428	Nonexistent field 'ODR12'	driverrf4463pro.c
+error: 874	428	Nonexistent field 'ODR12'	driverrf4463pro.c
+error: 880	428	Nonexistent field 'ODR12'	driverrf4463pro.c
+error: 895	428	Nonexistent field 'ODR12'	driverrf4463pro.c
+error: 896	428	Nonexistent field 'ODR12'	driverrf4463pro.c
+error: 901	428	Nonexistent field 'ODR12'	driverrf4463pro.c
+error: 902	312	Internal error ''	driverrf4463pro.c
+error: 0	102	Finished (with errors): 27 ene. 2021, 12:40:30	DriverRF4463PRO.mcpar

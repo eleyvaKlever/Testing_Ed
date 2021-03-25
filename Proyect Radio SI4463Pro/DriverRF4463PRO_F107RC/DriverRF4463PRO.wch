@@ -1,0 +1,283 @@
+<WCH v="2">
+<item n="vRF4463Init_app_command_buf_L0" r="1" s="False" e="False" i="1763">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+<item n="[6]" r="1" s="False" e="False" i="6"/>
+<item n="[7]" r="1" s="False" e="False" i="7"/>
+<item n="[8]" r="1" s="False" e="False" i="8"/>
+<item n="[9]" r="1" s="False" e="False" i="9"/>
+<item n="[10]" r="1" s="False" e="False" i="10"/>
+<item n="[11]" r="1" s="False" e="False" i="11"/>
+<item n="[12]" r="1" s="False" e="False" i="12"/>
+<item n="[13]" r="1" s="False" e="False" i="13"/>
+<item n="[14]" r="1" s="False" e="False" i="14"/>
+<item n="[15]" r="1" s="False" e="False" i="15"/>
+<item n="[16]" r="1" s="False" e="False" i="16"/>
+<item n="[17]" r="1" s="False" e="False" i="17"/>
+<item n="[18]" r="1" s="False" e="False" i="18"/>
+<item n="[19]" r="1" s="False" e="False" i="19"/>
+</item>
+<item n="_RF_MODEM_MOD_TYPE_12_data" r="1" s="False" e="False" i="1704">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+<item n="[6]" r="1" s="False" e="False" i="6"/>
+<item n="[7]" r="1" s="False" e="False" i="7"/>
+<item n="[8]" r="1" s="False" e="False" i="8"/>
+<item n="[9]" r="1" s="False" e="False" i="9"/>
+<item n="[10]" r="1" s="False" e="False" i="10"/>
+<item n="[11]" r="1" s="False" e="False" i="11"/>
+<item n="[12]" r="1" s="False" e="False" i="12"/>
+<item n="[13]" r="1" s="False" e="False" i="13"/>
+<item n="[14]" r="1" s="False" e="False" i="14"/>
+<item n="[15]" r="1" s="False" e="False" i="15"/>
+</item>
+<item n="_RF_MODEM_MOD_TYPE_12" r="1" s="False" e="False" i="1683">
+<item n="[0]" r="1" s="False" e="False" i="-1">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+<item n="[6]" r="1" s="False" e="False" i="6"/>
+<item n="[7]" r="1" s="False" e="False" i="7"/>
+<item n="[8]" r="1" s="False" e="False" i="8"/>
+<item n="[9]" r="1" s="False" e="False" i="9"/>
+<item n="[10]" r="1" s="False" e="False" i="10"/>
+<item n="[11]" r="1" s="False" e="False" i="11"/>
+</item>
+<item n="[1]" r="1" s="False" e="False" i="-1">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+<item n="[6]" r="1" s="False" e="False" i="6"/>
+<item n="[7]" r="1" s="False" e="False" i="7"/>
+<item n="[8]" r="1" s="False" e="False" i="8"/>
+<item n="[9]" r="1" s="False" e="False" i="9"/>
+<item n="[10]" r="1" s="False" e="False" i="10"/>
+<item n="[11]" r="1" s="False" e="False" i="11"/>
+</item>
+<item n="[2]" r="1" s="False" e="False" i="-1">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+<item n="[6]" r="1" s="False" e="False" i="6"/>
+<item n="[7]" r="1" s="False" e="False" i="7"/>
+<item n="[8]" r="1" s="False" e="False" i="8"/>
+<item n="[9]" r="1" s="False" e="False" i="9"/>
+<item n="[10]" r="1" s="False" e="False" i="10"/>
+<item n="[11]" r="1" s="False" e="False" i="11"/>
+</item>
+<item n="[3]" r="1" s="False" e="False" i="-1">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+<item n="[6]" r="1" s="False" e="False" i="6"/>
+<item n="[7]" r="1" s="False" e="False" i="7"/>
+<item n="[8]" r="1" s="False" e="False" i="8"/>
+<item n="[9]" r="1" s="False" e="False" i="9"/>
+<item n="[10]" r="1" s="False" e="False" i="10"/>
+<item n="[11]" r="1" s="False" e="False" i="11"/>
+</item>
+<item n="[4]" r="1" s="False" e="False" i="-1">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+<item n="[6]" r="1" s="False" e="False" i="6"/>
+<item n="[7]" r="1" s="False" e="False" i="7"/>
+<item n="[8]" r="1" s="False" e="False" i="8"/>
+<item n="[9]" r="1" s="False" e="False" i="9"/>
+<item n="[10]" r="1" s="False" e="False" i="10"/>
+<item n="[11]" r="1" s="False" e="False" i="11"/>
+</item>
+<item n="[5]" r="1" s="False" e="False" i="-1">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+<item n="[6]" r="1" s="False" e="False" i="6"/>
+<item n="[7]" r="1" s="False" e="False" i="7"/>
+<item n="[8]" r="1" s="False" e="False" i="8"/>
+<item n="[9]" r="1" s="False" e="False" i="9"/>
+<item n="[10]" r="1" s="False" e="False" i="10"/>
+<item n="[11]" r="1" s="False" e="False" i="11"/>
+</item>
+<item n="[6]" r="1" s="False" e="False" i="-1">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+<item n="[6]" r="1" s="False" e="False" i="6"/>
+<item n="[7]" r="1" s="False" e="False" i="7"/>
+<item n="[8]" r="1" s="False" e="False" i="8"/>
+<item n="[9]" r="1" s="False" e="False" i="9"/>
+<item n="[10]" r="1" s="False" e="False" i="10"/>
+<item n="[11]" r="1" s="False" e="False" i="11"/>
+</item>
+<item n="[7]" r="1" s="False" e="False" i="-1">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+<item n="[6]" r="1" s="False" e="False" i="6"/>
+<item n="[7]" r="1" s="False" e="False" i="7"/>
+<item n="[8]" r="1" s="False" e="False" i="8"/>
+<item n="[9]" r="1" s="False" e="False" i="9"/>
+<item n="[10]" r="1" s="False" e="False" i="10"/>
+<item n="[11]" r="1" s="False" e="False" i="11"/>
+</item>
+<item n="[8]" r="1" s="False" e="False" i="-1">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+<item n="[6]" r="1" s="False" e="False" i="6"/>
+<item n="[7]" r="1" s="False" e="False" i="7"/>
+<item n="[8]" r="1" s="False" e="False" i="8"/>
+<item n="[9]" r="1" s="False" e="False" i="9"/>
+<item n="[10]" r="1" s="False" e="False" i="10"/>
+<item n="[11]" r="1" s="False" e="False" i="11"/>
+</item>
+<item n="[9]" r="1" s="False" e="False" i="-1">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+<item n="[6]" r="1" s="False" e="False" i="6"/>
+<item n="[7]" r="1" s="False" e="False" i="7"/>
+<item n="[8]" r="1" s="False" e="False" i="8"/>
+<item n="[9]" r="1" s="False" e="False" i="9"/>
+<item n="[10]" r="1" s="False" e="False" i="10"/>
+<item n="[11]" r="1" s="False" e="False" i="11"/>
+</item>
+<item n="[10]" r="1" s="False" e="False" i="-1">
+</item>
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+<item n="[6]" r="1" s="False" e="False" i="6"/>
+<item n="[7]" r="1" s="False" e="False" i="7"/>
+<item n="[8]" r="1" s="False" e="False" i="8"/>
+<item n="[9]" r="1" s="False" e="False" i="9"/>
+<item n="[10]" r="1" s="False" e="False" i="10"/>
+<item n="[11]" r="1" s="False" e="False" i="11"/>
+</item>
+<item n="_freq3" r="0" s="False" e="True" i="3"/>
+<item n="_RF_POWER_UP_data" r="1" s="False" e="False" i="1701">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+<item n="[6]" r="1" s="False" e="False" i="6"/>
+</item>
+<item n="SPI2_CR1bits" r="1" s="False" e="True" i="1180">
+<item n="?au?_29009" r="1" s="False" e="True" i="-1">
+</item>
+<item n="?au?_29008" r="1" s="False" e="False" i="-1">
+</item>
+<item n="" r="1" s="False" e="False" i="-1">
+</item>
+<item n="_CPHA" r="1" s="False" e="False" i="0"/>
+<item n="_CPOL" r="1" s="False" e="False" i="1"/>
+<item n="_MSTR" r="1" s="False" e="False" i="2"/>
+<item n="_BR" r="1" s="False" e="False" i="3"/>
+<item n="_SPE" r="1" s="False" e="False" i="4"/>
+<item n="_LSBFIRST" r="1" s="False" e="False" i="5"/>
+<item n="_SSI" r="1" s="False" e="False" i="6"/>
+<item n="_SSM" r="1" s="False" e="False" i="7"/>
+<item n="_RXONLY" r="1" s="False" e="False" i="8"/>
+<item n="_DFF" r="1" s="False" e="False" i="9"/>
+<item n="_CRCNEXT" r="1" s="False" e="False" i="10"/>
+<item n="_CRCEN" r="1" s="False" e="False" i="11"/>
+<item n="_BIDIOE" r="1" s="False" e="False" i="12"/>
+<item n="_BIDIMODE" r="1" s="False" e="False" i="13"/>
+<item n="_14" r="1" s="False" e="False" i="14"/>
+</item>
+<item n="SPI2_CR2bits" r="1" s="False" e="True" i="1181">
+<item n="?au?_29025" r="1" s="False" e="True" i="-1">
+</item>
+<item n="?au?_29024" r="1" s="False" e="False" i="-1">
+</item>
+<item n="" r="1" s="False" e="False" i="-1">
+</item>
+<item n="_RXDMAEN" r="1" s="False" e="False" i="0"/>
+<item n="_TXDMAEN" r="1" s="False" e="False" i="1"/>
+<item n="_SSOE" r="1" s="False" e="False" i="2"/>
+<item n="_3" r="1" s="False" e="False" i="3"/>
+<item n="_ERRIE" r="1" s="False" e="False" i="4"/>
+<item n="_RXNEIE" r="1" s="False" e="False" i="5"/>
+<item n="_TXEIE" r="1" s="False" e="False" i="6"/>
+<item n="_7" r="1" s="False" e="False" i="7"/>
+</item>
+<item n="SPI2_SRbits" r="1" s="False" e="True" i="1182">
+<item n="?au?_29042" r="1" s="False" e="True" i="-1">
+</item>
+<item n="?au?_29041" r="1" s="False" e="False" i="-1">
+</item>
+<item n="" r="1" s="False" e="False" i="-1">
+</item>
+<item n="_RXNE" r="1" s="False" e="False" i="0"/>
+<item n="_TXE" r="1" s="False" e="False" i="1"/>
+<item n="_CHSIDE" r="1" s="False" e="False" i="2"/>
+<item n="_UDR" r="1" s="False" e="False" i="3"/>
+<item n="_CRCERR" r="1" s="False" e="False" i="4"/>
+<item n="_MODF_" r="1" s="False" e="False" i="5"/>
+<item n="_OVR" r="1" s="False" e="False" i="6"/>
+<item n="_BSY" r="1" s="False" e="False" i="7"/>
+<item n="_8" r="1" s="False" e="False" i="8"/>
+</item>
+<item n="SPI2_DR" r="0" s="False" e="True" i="8"/>
+<item n="FARG_ucRf4463SPIByte_ucData" r="1" s="False" e="True" i="9"/>
+<item n="rf_init_freq_ulFrequency_L0" r="0" s="False" e="True" i="10"/>
+<item n="_RF_MODEM_TX_RAMP_DELAY_8_data" r="1" s="False" e="True" i="1705">
+<item n="[0]" r="1" s="False" e="False" i="0"/>
+<item n="[1]" r="1" s="False" e="False" i="1"/>
+<item n="[2]" r="1" s="False" e="False" i="2"/>
+<item n="[3]" r="1" s="False" e="False" i="3"/>
+<item n="[4]" r="1" s="False" e="False" i="4"/>
+<item n="[5]" r="1" s="False" e="False" i="5"/>
+<item n="[6]" r="1" s="False" e="False" i="6"/>
+<item n="[7]" r="1" s="False" e="False" i="7"/>
+<item n="[8]" r="1" s="False" e="False" i="8"/>
+<item n="[9]" r="1" s="False" e="False" i="9"/>
+<item n="[10]" r="1" s="False" e="False" i="10"/>
+<item n="[11]" r="1" s="False" e="False" i="11"/>
+</item>
+<item n="spi_write_i_L0" r="0" s="False" e="True" i="12"/>
+<item n="_ucSPI2ByteReceived" r="0" s="False" e="True" i="13"/>
+</WCH>

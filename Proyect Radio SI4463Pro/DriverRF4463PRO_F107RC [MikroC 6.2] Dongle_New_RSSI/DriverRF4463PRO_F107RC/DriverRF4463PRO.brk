@@ -1,0 +1,14 @@
+<BREAKS>
+  <BP>
+    <UnitName>DriverRF4463PRO.c</UnitName>
+    <Line>589</Line>
+    <Enabled>True</Enabled>
+    <Type>0</Type>
+  </BP>
+  <BP>
+    <UnitName>DriverRF4463PRO.c</UnitName>
+    <Line>946</Line>
+    <Enabled>True</Enabled>
+    <Type>0</Type>
+  </BP>
+</BREAKS>

@@ -1,0 +1,24 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F107VC -RA -BIN -APB -LHF -C -Y -DL -SSA -O11111112 -fo140 -N"C:\Users\Crow\Desktop\RF_Tools\RF_Meter_example_ARM\RF_Meter_example.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -SP"C:\Users\Crow\Desktop\RF_Tools\RF_Meter_example_ARM\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" "RF_Meter_example.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_105_107.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl" "__Lib_CType.emcl" "__Lib_Sprintf.emcl" "__Lib_SPI_123.emcl" "__Lib_TFT.emcl" "__Lib_TFT_Defs.emcl" "RF_Meter_STM32_M3.emcl" "rf_meter_hal_M3.emcl" "rf_meter_hw _M3.emcl"	 
+diagnostics: 0	122	Compilation Started	STM32F107VC.c
+diagnostics: 38838	123	Compiled Successfully	STM32F107VC.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 118	123	Compiled Successfully	__Lib_Delays.c
+hint: 66	1164	Variable 'cycles_div_by_10' has been eliminated by optimizer	__Lib_Delays.c
+hint: 87	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+hint: 104	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__lib_gpio.h
+diagnostics: 834	123	Compiled Successfully	__Lib_GPIO_32F10x_Defs.c
+diagnostics: 0	122	Compilation Started	__Lib_TFT_Defs.c
+warning: 110	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 122	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 134	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 146	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 155	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 172	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 186	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+diagnostics: 4053	123	Compiled Successfully	__Lib_TFT_Defs.c
+hint: 51	1164	Variable 'temp' has been eliminated by optimizer	__Lib_TFT_Defs.c
+error: 0	340	File 'RF_Meter_STM32_M3.c' not found	 
+error: 0	340	File 'rf_meter_hal_M3.c' not found	 
+error: 0	340	File 'rf_meter_hw _M3.c' not found	 
+error: 0	102	Finished (with errors): 13 oct. 2020, 16:48:36	RF_Meter_example.mcpar

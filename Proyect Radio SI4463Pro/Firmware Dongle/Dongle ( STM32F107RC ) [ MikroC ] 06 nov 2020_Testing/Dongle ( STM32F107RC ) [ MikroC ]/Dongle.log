@@ -1,0 +1,122 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F107RC -UICD -RA -BIN -APB -LHF -C -Y -DL -SSA -O11111111 -fo72 -N"C:\Users\Crow\Desktop\Data\Dongle\Dongle ( STM32F107RC ) [ MikroC ] 06 nov 2020\Dongle ( STM32F107RC ) [ MikroC ]\Dongle.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -SP"C:\Users\Crow\Desktop\Data\Dongle\Dongle ( STM32F107RC ) [ MikroC ] 06 nov 2020\Dongle ( STM32F107RC ) [ MikroC ]\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Memory manager dlmalloc\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Memory manager dlmalloc\Uses\" "main.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_105_107.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl" "__Lib_CType.emcl" "__Lib_CString.emcl" "__Lib_CStdlib.emcl" "__Lib_CMath.emcl" "__Lib_Conversions.emcl" "__Lib_Sprintf.emcl" "__Lib_PrintOut.emcl" "__Lib_Sound.emcl" "__Lib_FLASH_32F10x.emcl" "__Lib_I2C_12.emcl" "__Lib_PWM_12345.emcl" "__Lib_SPI_123.emcl" "__Lib_UART_123_45.emcl" "__Lib_dlmalloc.emcl"	 
+diagnostics: 0	122	Compilation Started	STM32F107RC.c
+diagnostics: 38838	123	Compiled Successfully	STM32F107RC.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 118	123	Compiled Successfully	__Lib_Delays.c
+hint: 66	1164	Variable 'cycles_div_by_10' has been eliminated by optimizer	__Lib_Delays.c
+hint: 87	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+hint: 104	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__lib_gpio.h
+diagnostics: 834	123	Compiled Successfully	__Lib_GPIO_32F10x_Defs.c
+diagnostics: 0	122	Compilation Started	stdint.h
+warning: 583	1508	Implicit conversion of int to ptr	__Lib_dlmalloc.c
+diagnostics: 5472	123	Compiled Successfully	__Lib_dlmalloc.c
+hint: 0	1164	Variable '?FLOC____Lib_dlmalloc_internal_malloc_stats?T372' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 3612	1164	Variable 'maxfp' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 3613	1164	Variable 'fp' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 3614	1164	Variable 'used' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 3917	1164	Variable 'offset' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 3939	1164	Variable 'flags' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 3979	1164	Variable 'offset' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 3996	1164	Variable 'bin' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4054	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4054	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4054	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4025	1164	Variable 'psize' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4109	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4109	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4109	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4107	1164	Variable 'tn' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4066	1164	Variable 'oldsp' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4070	1164	Variable 'offset' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4075	1164	Variable 'tnext' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4077	1164	Variable 'nfences' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4204	1164	Variable 'end' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4313	1164	Variable 'r' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4361	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4361	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4361	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4332	1164	Variable 'pred' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4394	1164	Variable 'newsize' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4447	1164	Variable 'prev' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4505	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4505	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4505	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4520	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4520	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4520	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4549	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4549	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4549	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4547	1164	Variable 'i' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4548	1164	Variable 'leastbit' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4575	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4575	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4575	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4591	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4591	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4591	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4589	1164	Variable 'i' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4590	1164	Variable 'leastbit' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4683	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4683	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4683	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4681	1164	Variable 'leftbits' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4682	1164	Variable 'leastbit' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4740	1164	Variable 'rsize' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4742	1164	Variable 'r' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4795	1164	Variable 'prev' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4816	1164	Variable 'tsize' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4853	1164	Variable 'Y' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4853	1164	Variable 'N' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4853	1164	Variable 'K' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4914	1164	Variable 'newsize' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 5005	1164	Variable 'pos' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 4987	1164	Variable 'req' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 5125	1164	Variable 'array_chunk_size' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 5065	1164	Variable 'array_chunk' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 5330	1164	Variable 'newp' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 5355	1164	Variable 'r' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 5416	1164	Variable 'result' has been eliminated by optimizer	__Lib_dlmalloc.c
+hint: 88	1354	 warning: No space between macro name "GET_INT_STATUS_REPLY_MODEM_STATUS_SYNC_DETECT" and repl-text     #define GET_INT_STATUS_REPLY_MODEM_STATUS_SYNC_DETECT` 0x01     from c:/users/crow/desktop/data/dongle/dongle ( stm32f107rc ) [ mikroc ] 06 nov 2020/dongle ( stm32f107rc ) [ mikroc ]/rf4463handler.h: 14:    #include "rf4463pro.h"     from c:/users/crow/desktop/data/dongle/dongle ( stm32f107rc ) [ mikroc ] 06 nov 2020/dongle ( stm32f107rc ) [ mikroc ]/dongle.h: 17:    #include "RF4463Handler.h"     from c:/users/crow/desktop/data/dongle/dongle ( stm32f107rc ) [ mikroc ] 06 nov 2020/dongle ( stm32f107rc ) [ mikroc ]/dongle.c: 18:    #include "Dongle.h"     from C:/Users/Crow/Desktop/Data/Dongle/Dongle ( STM32F107RC ) [ MikroC ] 06 nov 2020/Dongle ( STM32F107RC ) [ MikroC ]/main.c: 32:    #include "Dongle.c"	c:\users\crow\desktop\data\dongle\dongle ( stm32f107rc ) [ mikroc ] 06 nov 2020\dongle ( stm32f107rc ) [ mikroc ]\rf4463pro.h
+hint: 56	1354	 warning: The macro is redefined     #define RF_MESSAGE_HEADER_SIZE 5     from c:/users/crow/desktop/data/dongle/dongle ( stm32f107rc ) [ mikroc ] 06 nov 2020/dongle ( stm32f107rc ) [ mikroc ]/dongle.h: 17:    #include "RF4463Handler.h"     from c:/users/crow/desktop/data/dongle/dongle ( stm32f107rc ) [ mikroc ] 06 nov 2020/dongle ( stm32f107rc ) [ mikroc ]/dongle.c: 18:    #include "Dongle.h"     from C:/Users/Crow/Desktop/Data/Dongle/Dongle ( STM32F107RC ) [ MikroC ] 06 nov 2020/Dongle ( STM32F107RC ) [ MikroC ]/main.c: 32:    #include "Dongle.c"     previously macro "RF_MESSAGE_HEADER_SIZE" defined as: #define RF_MESSAGE_HEADER_SIZE  3 	c:\users\crow\desktop\data\dongle\dongle ( stm32f107rc ) [ mikroc ] 06 nov 2020\dongle ( stm32f107rc ) [ mikroc ]\rf4463handler.h
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 0	1004	interrupt handler (vUARTISR at 0x0035)	uarthandler.c
+warning: 239	1505	Suspicious pointer conversion	uarthandler.c
+hint: 145	1163	Variable 'pcTempTxBuffer' has been declared, but not used	uarthandler.c
+hint: 0	1004	interrupt handler (RFISR at 0x0038)	rf4463handler.c
+hint: 113	1163	Variable 'pcTemp' has been declared, but not used	rf4463handler.c
+warning: 257	1503	Result is not defined in function: 'ucRF4463Setup'	rf4463handler.c
+warning: 107	1505	Suspicious pointer conversion	rf4463pro.c
+warning: 312	1505	Suspicious pointer conversion	rf4463pro.c
+hint: 660	1163	Variable 'pcBuffer' has been declared, but not used	rf4463pro.c
+warning: 701	1508	Implicit conversion of int to ptr	rf4463pro.c
+warning: 736	1505	Suspicious pointer conversion	rf4463pro.c
+hint: 0	1004	interrupt handler (vButtonISR at 0x0027)	buttonhandler.c
+hint: 0	1004	interrupt handler (Timer6_interrupt at 0x0046)	timer.c
+diagnostics: 99	123	Compiled Successfully	main.c
+hint: 121	1164	Variable 'usCounter' has been eliminated by optimizer	main.c
+hint: 148	1164	Variable 'ucDeviceModel' has been eliminated by optimizer	main.c
+hint: 50	1164	Variable 'ucMemorySelected' has been eliminated by optimizer	main.c
+hint: 60	1164	Variable 'ucTemp' has been eliminated by optimizer	main.c
+hint: 59	1164	Variable 'ucMemorySelected' has been eliminated by optimizer	main.c
+hint: 101	1164	Variable 'ucTempValue' has been eliminated by optimizer	main.c
+hint: 132	1164	Variable 'ucTemp' has been eliminated by optimizer	main.c
+hint: 131	1164	Variable 'ucMemorySelected' has been eliminated by optimizer	main.c
+hint: 160	1164	Variable 'ucMemorySelected' has been eliminated by optimizer	main.c
+hint: 179	1164	Variable 'ucTemp' has been eliminated by optimizer	main.c
+hint: 178	1164	Variable 'ucMemorySelected' has been eliminated by optimizer	main.c
+hint: 194	1164	Variable 'ucMemorySelected' has been eliminated by optimizer	main.c
+hint: 269	1164	Variable 'pcTempBuffer' has been eliminated by optimizer	main.c
+hint: 62	1164	Variable 'ucTxPower' has been eliminated by optimizer	main.c
+hint: 463	1164	Variable 'intRSSI' has been eliminated by optimizer	main.c
+hint: 522	1164	Variable 'usPartInformation' has been eliminated by optimizer	main.c
+hint: 661	1164	Variable 'ucCounter' has been eliminated by optimizer	main.c
+diagnostics: 0	127	All files Compiled in 500 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 2539   Dynamic RAM (bytes): 62993	Static RAM (bytes): 2539   Dynamic RAM (bytes): 62993
+hint: 0	1144	Used ROM (bytes): 20800 (8%)  Free ROM (bytes): 241344 (92%)	Used ROM (bytes): 20800 (8%)  Free ROM (bytes): 241344 (92%)
+diagnostics: 0	125	Project Linked Successfully	Dongle.mcpar
+diagnostics: 0	128	Linked in 312 ms	 
+diagnostics: 0	129	Project 'Dongle.mcpar' completed: 2578 ms	 
+diagnostics: 0	103	Finished successfully: 20 nov. 2020, 13:17:39	Dongle.mcpar

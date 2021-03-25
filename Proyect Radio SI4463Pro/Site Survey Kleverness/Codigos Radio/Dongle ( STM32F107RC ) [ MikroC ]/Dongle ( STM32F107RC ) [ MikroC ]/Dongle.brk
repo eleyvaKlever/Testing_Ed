@@ -1,0 +1,32 @@
+<BREAKS>
+  <BP>
+    <UnitName>ErrorHandler.c</UnitName>
+    <Line>121</Line>
+    <Enabled>True</Enabled>
+    <Type>0</Type>
+  </BP>
+  <BP>
+    <UnitName>ErrorHandler.c</UnitName>
+    <Line>113</Line>
+    <Enabled>True</Enabled>
+    <Type>0</Type>
+  </BP>
+  <BP>
+    <UnitName>Rf4463Handler.c</UnitName>
+    <Line>220</Line>
+    <Enabled>True</Enabled>
+    <Type>0</Type>
+  </BP>
+  <BP>
+    <UnitName>Rf4463Handler.c</UnitName>
+    <Line>225</Line>
+    <Enabled>True</Enabled>
+    <Type>0</Type>
+  </BP>
+  <BP>
+    <UnitName>ostimer.c</UnitName>
+    <Line>431</Line>
+    <Enabled>True</Enabled>
+    <Type>0</Type>
+  </BP>
+</BREAKS>

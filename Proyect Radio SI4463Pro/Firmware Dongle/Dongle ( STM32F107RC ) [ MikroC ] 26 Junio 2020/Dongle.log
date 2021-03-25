@@ -1,0 +1,41 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F107RC -UICD -BIN -LHF -DL -SSA -O11111114 -fo72 -N"C:\Users\Crow\OneDrive\Escritorio\Proyect Radio SI4463Pro\Firmware Dongle\Dongle ( STM32F107RC ) [ MikroC ] 26 Junio 2020\Dongle.mcpar" -SP"C:\Users\Crow\OneDrive\Documentos\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Crow\OneDrive\Documentos\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -SP"C:\Users\Crow\OneDrive\Escritorio\Proyect Radio SI4463Pro\Firmware Dongle\Dongle ( STM32F107RC ) [ MikroC ] 26 Junio 2020\" -IP"C:\Users\Crow\OneDrive\Documentos\Mikroelektronika\mikroC PRO for ARM\Uses\TI M3\" -IP"C:\Users\Crow\OneDrive\Escritorio\Proyect Radio SI4463Pro\Firmware Dongle\Dongle ( STM32F107RC ) [ MikroC ] 26 Junio 2020\" "main.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_105_107.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl" "__Lib_CType.emcl" "__Lib_CString.emcl" "__Lib_CStdlib.emcl" "__Lib_CMath.emcl" "__Lib_Conversions.emcl" "__Lib_Sprintf.emcl" "__Lib_PrintOut.emcl" "__Lib_Sound.emcl" "__Lib_FLASH_32F10x.emcl" "__Lib_SPI_123.emcl" "__Lib_UART_123_45.emcl"	 
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 0	1004	interrupt handler (vUARTISR at 0x0035)	uarthandler.c
+warning: 235	1505	Suspicious pointer conversion	uarthandler.c
+hint: 134	1163	Variable 'pcTempTxBuffer' has been declared, but not used	uarthandler.c
+hint: 61	1163	Variable 'pcEraseTest' has been declared, but not used	flashhandler.c
+hint: 0	1004	interrupt handler (RFISR at 0x0038)	rf4463handler.c
+hint: 56	1163	Variable 'ucTempText' has been declared, but not used	rf4463handler.c
+hint: 387	1163	Variable 'pcTemp' has been declared, but not used	rf4463handler.c
+warning: 154	1503	Result is not defined in function: 'ucRf4463Init'	rf4463pro.c
+warning: 204	1505	Suspicious pointer conversion	rf4463pro.c
+hint: 0	1004	interrupt handler (vButtonISR at 0x0027)	buttonhandler.c
+hint: 0	1004	interrupt handler (Timer6_interrupt at 0x0046)	timer.c
+diagnostics: 98	123	Compiled Successfully	main.c
+hint: 110	1164	Variable 'usCounter' has been eliminated by optimizer	main.c
+hint: 136	1164	Variable 'usTempData' has been eliminated by optimizer	main.c
+hint: 137	1164	Variable 'ucDeviceModel' has been eliminated by optimizer	main.c
+hint: 64	1164	Variable 'TempData' has been eliminated by optimizer	main.c
+hint: 65	1164	Variable 'FlashID' has been eliminated by optimizer	main.c
+hint: 67	1164	Variable 'ucTempValue' has been eliminated by optimizer	main.c
+hint: 50	1164	Variable 'ucMemorySelected' has been eliminated by optimizer	main.c
+hint: 60	1164	Variable 'ucTemp' has been eliminated by optimizer	main.c
+hint: 59	1164	Variable 'ucMemorySelected' has been eliminated by optimizer	main.c
+hint: 101	1164	Variable 'ucTempValue' has been eliminated by optimizer	main.c
+hint: 132	1164	Variable 'ucTemp' has been eliminated by optimizer	main.c
+hint: 131	1164	Variable 'ucMemorySelected' has been eliminated by optimizer	main.c
+hint: 160	1164	Variable 'ucMemorySelected' has been eliminated by optimizer	main.c
+hint: 179	1164	Variable 'ucTemp' has been eliminated by optimizer	main.c
+hint: 178	1164	Variable 'ucMemorySelected' has been eliminated by optimizer	main.c
+hint: 194	1164	Variable 'ucMemorySelected' has been eliminated by optimizer	main.c
+hint: 120	1164	Variable 'ucIsRFAvailable' has been eliminated by optimizer	main.c
+hint: 353	1164	Variable 'xRSSI' has been eliminated by optimizer	main.c
+hint: 396	1164	Variable 'usPartInformation' has been eliminated by optimizer	main.c
+diagnostics: 0	127	All files Compiled in 406 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 3386   Dynamic RAM (bytes): 62145	Static RAM (bytes): 3386   Dynamic RAM (bytes): 62145
+hint: 0	1144	Used ROM (bytes): 27208 (10%)  Free ROM (bytes): 234936 (90%)	Used ROM (bytes): 27208 (10%)  Free ROM (bytes): 234936 (90%)
+diagnostics: 0	125	Project Linked Successfully	Dongle.mcpar
+diagnostics: 0	128	Linked in 391 ms	 
+diagnostics: 0	129	Project 'Dongle.mcpar' completed: 938 ms	 
+diagnostics: 0	103	Finished successfully: 13 ene. 2021, 20:57:24	Dongle.mcpar

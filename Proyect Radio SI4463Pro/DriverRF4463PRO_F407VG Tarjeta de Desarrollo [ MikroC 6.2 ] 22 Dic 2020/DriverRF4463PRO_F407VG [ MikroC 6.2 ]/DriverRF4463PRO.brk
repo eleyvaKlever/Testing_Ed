@@ -1,0 +1,32 @@
+<BREAKS>
+  <BP>
+    <UnitName>DriverRF4463PROMain.c</UnitName>
+    <Line>905</Line>
+    <Enabled>True</Enabled>
+    <Type>0</Type>
+  </BP>
+  <BP>
+    <UnitName>DriverRF4463PROMain.c</UnitName>
+    <Line>903</Line>
+    <Enabled>True</Enabled>
+    <Type>0</Type>
+  </BP>
+  <BP>
+    <UnitName>DriverRF4463PROMain.c</UnitName>
+    <Line>325</Line>
+    <Enabled>True</Enabled>
+    <Type>0</Type>
+  </BP>
+  <BP>
+    <UnitName>DriverRF4463PROMain.c</UnitName>
+    <Line>819</Line>
+    <Enabled>True</Enabled>
+    <Type>0</Type>
+  </BP>
+  <BP>
+    <UnitName>DriverRF4463PROMain.c</UnitName>
+    <Line>150</Line>
+    <Enabled>True</Enabled>
+    <Type>0</Type>
+  </BP>
+</BREAKS>

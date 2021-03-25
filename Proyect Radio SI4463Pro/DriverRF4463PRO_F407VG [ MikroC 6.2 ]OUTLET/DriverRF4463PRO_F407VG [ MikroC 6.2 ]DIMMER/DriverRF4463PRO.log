@@ -1,0 +1,29 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32L072CB -UICD -RA -BIN -APB -LHF -C -Y -DL -O11111110 -fo16 -N"C:\Users\Crow\Desktop\Proyect Radio SI4463Pro\DriverRF4463PRO_F407VG [ MikroC 6.2 ]OUTLET\DriverRF4463PRO_F407VG [ MikroC 6.2 ]DIMMER\DriverRF4463PRO.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M0\" -SP"C:\Users\Crow\Desktop\Proyect Radio SI4463Pro\DriverRF4463PRO_F407VG [ MikroC 6.2 ]OUTLET\DriverRF4463PRO_F407VG [ MikroC 6.2 ]DIMMER\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M0\" "DriverRF4463PROMain.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_M0Plus_HSI48.emcl" "__Lib_GPIO_32L07x_Defs.emcl" "__Lib_GPIO_32L07x.emcl" "__Lib_CType.emcl" "__Lib_CString.emcl" "__Lib_CStdlib.emcl" "__Lib_Conversions.emcl" "__Lib_PrintOut.emcl" "__Lib_Sound.emcl" "__Lib_SPI_L0x_12.emcl" "__Lib_UART_12_45.emcl"	 
+diagnostics: 0	122	Compilation Started	STM32L072CB.c
+diagnostics: 22598	123	Compiled Successfully	STM32L072CB.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 165	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 331	123	Compiled Successfully	__Lib_GPIO_32L07x_Defs.c
+diagnostics: 0	122	Compilation Started	DriverRF4463PROMain.c
+hint: 0	1004	interrupt handler (Int_SPI2 at 0x002A)	driverspi.c
+hint: 0	1004	interrupt handler (vRF4463ISR at 0x0015)	driverrf4463pro.c
+warning: 127	1505	Suspicious pointer conversion	driverrf4463pro.c
+warning: 270	1505	Suspicious pointer conversion	driverrf4463pro.c
+hint: 558	1163	Variable 'i' has been declared, but not used	driverrf4463pro.c
+hint: 600	1163	Variable 'i' has been declared, but not used	driverrf4463pro.c
+hint: 629	1163	Variable 'ucFD_2' has been declared, but not used	driverrf4463pro.c
+hint: 629	1163	Variable 'ucFD_1' has been declared, but not used	driverrf4463pro.c
+hint: 629	1163	Variable 'ucFD_0' has been declared, but not used	driverrf4463pro.c
+hint: 0	1004	interrupt handler (vUARTISR at 0x002B)	uarthandler.c
+hint: 0	1004	interrupt handler (Timer2_interrupt at 0x001F)	DriverRF4463PROMain.c
+hint: 495	1163	Variable 'j' has been declared, but not used	DriverRF4463PROMain.c
+diagnostics: 705	123	Compiled Successfully	DriverRF4463PROMain.c
+diagnostics: 0	127	All files Compiled in 203 ms	 
+hint: 0	1144	Used RX: 11 (69%)   Free RX: 5 (31%)	Used RX: 11 (69%)   Free RX: 5 (31%)
+hint: 0	1144	Static RAM (bytes): 4411   Dynamic RAM (bytes): 16065	Static RAM (bytes): 4411   Dynamic RAM (bytes): 16065
+hint: 0	1144	Used ROM (bytes): 17911 (14%)  Free ROM (bytes): 113161 (86%)	Used ROM (bytes): 17911 (14%)  Free ROM (bytes): 113161 (86%)
+diagnostics: 0	125	Project Linked Successfully	DriverRF4463PRO.mcpar
+diagnostics: 0	128	Linked in 234 ms	 
+diagnostics: 0	129	Project 'DriverRF4463PRO.mcpar' completed: 953 ms	 
+diagnostics: 0	103	Finished successfully: 22 dic. 2020, 14:11:08	DriverRF4463PRO.mcpar

@@ -1,0 +1,27 @@
+main
+	__CC2DW
+	Init_Hardware
+		InitTimer0
+		Sound_Init
+		UART1_Init
+	Tone3
+		Sound_Play
+			Get_Fosc_kHz
+			Mul_32x32_U
+			Div_32x32_U
+			Div_16X16_U
+			Delay_Cyc
+	UART1_Write_Text
+		UART1_Write
+	sdn_reset
+		__CC2DW
+		UART1_Write_Text
+			UART1_Write
+		Mul_16X16_U
+		spibyte
+	SI4463_init
+		spi_write
+			check_cts
+				spibyte
+			spibyte
+interrupt
