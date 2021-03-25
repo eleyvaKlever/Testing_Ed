@@ -1,8 +1,8 @@
-# Testing_Ed
-Mis pruebas
+# Pruebas de Radio NiceRF4463Pro
+Repositorio de Respaldo
 
-16 - Marzo - 2016
+24 - Marzo - 2021
 
-V - 1.0.1
+V - 1.0.0
 
-Hola Ed, Ya tengo acceso a tu repositorio.
+Version Final de Pruebas
